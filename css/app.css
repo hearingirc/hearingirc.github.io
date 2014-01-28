@@ -542,6 +542,7 @@ sub {
 }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   font-weight: inherit;
+  text-decoration: none;
 }
 h1 {
   font-size: 35px;
@@ -1274,7 +1275,7 @@ nav a:hover {
 }
 nav a.active, nav a.active:focus, nav li.current-menu-item a, nav li.current-menu-item a:focus {
   color: #37b1ff;
-  border-top-color: #37b1ff;
+  border-top-color: #FFCA3B;
   -webkit-transition:color 0.3s ease, border-color 0.3s ease, background-color 0.3s ease;
   -moz-transition:color 0.3s ease, border-color 0.3s ease, background-color 0.3s ease;
   -o-transition:color 0.3s ease, border-top-color 0.3s ease, background-color 0.3s ease;
@@ -1282,7 +1283,7 @@ nav a.active, nav a.active:focus, nav li.current-menu-item a, nav li.current-men
 }
 nav a.active:hover, nav li.current-menu-item a:hover {
   color: #000;
-  border-top-color: #37b1ff;
+  border-top-color: #FFCA3B;
 }
 nav a span {
   color: #c1c1c1;
@@ -1669,11 +1670,11 @@ header.dark, .dark nav a, .dark nav a:visited, .dark nav a:focus {
 /* Active page link */
  nav a.active, nav a.active:focus, nav li.current-menu-item a, nav li.current-menu-item a:focus .dark nav a.active, .dark nav a.active:focus, .dark nav li.current-menu-item a, .dark nav li.current-menu-item a:focus {
   color: #2f96d8;
-  border-top-color: #37b1ff;
+  border-top-color: #FFCA3B;
 }
 nav a.active:hover, nav li.current-menu-item a:hover {
-  color: #000;
-  border-top-color: #37b1ff;
+  color: #2f96d8;
+  border-top-color: #FFCA3B;
 }
 .dark nav a.active:hover, .dark nav li.current-menu-item a:hover {
   color: #fff;
@@ -1686,15 +1687,19 @@ nav a span {
 }
 /* Content links */
  a, a:visited {
-  color: #0b81be;
+  color: #0092B2;
 }
 a:hover, a:focus {
   color: #000;
 }
 /* Content links in dark context */
  .dark a, .dark a:visited {
-  color:#37b1ff;
+  color:#FFCA3B;
 }
 .dark a:hover, .dark a:focus {
   color: #fff;
+}
+img.alignleft, .entry-content .alignleft {
+  margin: 4px 15px 0 0;
+  float: left;
 }
