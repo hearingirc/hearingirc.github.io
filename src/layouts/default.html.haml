@@ -6,7 +6,7 @@
     %title= (document.title || "Hearing IRC")
 
     %link(rel="shortcut icon" href="/img/favicon-2.ico")
-    = getBlock('scripts').add(['/js/vendor/cutter.js']).toHTML()
+    = getBlock('scripts').toHTML()
     = getBlock('styles').add(['/css/app.css']).toHTML()
   %body.home.blog.landing-page
     #main{role: "main"}
