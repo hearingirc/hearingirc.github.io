@@ -15,7 +15,7 @@ is built with the [Docpad](http://docpad.org/) static site generator.
 1. Clone repository
 1. `cd` into the repository directory and execute `npm install`
 1. Execute `./node_modules/.bin/docpad run`
-1. Visit http://localhost:9778/
+1. Visit http://127.0.0.1:9778/
 
 ### Adding content or changing layout...
 
