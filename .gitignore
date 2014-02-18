@@ -12,6 +12,8 @@ test/tmp
 test/version_tmp
 tmp
 
+site/node_modules
+site/out
 # YARD artifacts
 .yardoc
 _yardoc
