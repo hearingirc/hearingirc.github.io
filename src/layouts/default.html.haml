@@ -1,0 +1,62 @@
+!!! 5
+%html
+  %head
+    %meta{charset: "utf-8"}
+    %meta{name: "viewport", content: "width=device-width initial-scale=1.0"}
+    %title= (document.title || "Hearing IRC")
+
+    %link(rel="shortcut icon" href="/img/favicon-2.ico")
+    = getBlock('scripts').toHTML()
+    = getBlock('styles').add(['/css/app.css']).toHTML()
+  %body.home.blog.landing-page
+    #main{role: "main"}
+      %header
+        .container
+          %h1.logo.one-third.column.alpha
+            %a{href: "/", title: "Hearing Industry Research Consortium"}
+              %img.scale-with-grid{src: "/img/irclogo4.png", alt: "Hearing Industry Research Consortium"}
+              %img.scale-with-grid.mobile-only{src: "/img/irclogosolo2.png", alt: "Hearing Industry Research Consortium"}
+          %nav.menu.two-thirds.column.omega
+            %ul.nav
+              %li
+                %a.active{href: "/#about"} About
+                  %br
+                  %span hearing aid irc
+              %li
+                %a{href: "/#news"} News
+                  %br
+                  %span the latest
+              %li
+                %a{href: "/#requests"} Requests
+                  %br
+                  %span for proposals
+              %li
+                %a{href: "/#contact"} Contact
+                  %br
+                  %span
+                    get in touch
+        %div.bottom-gradient
+          %span.left
+          %span.center
+          %span.right
+
+      = content
+
+      %article#footer
+        .container
+          .two-thirds.column
+            %p
+              Copyright &copy;
+              :javascript
+                <!--
+                  var year = new Date();
+                  year = year.getYear();
+                  if (year < 1900) year += 1900;
+                  document.write(year);
+                   //-->
+              &nbsp;Hearing IRC, All Rights Reserved.
+          %div.one-third.column
+    %script{src: "http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"}
+    %script{type: "text/javascript", src: "/js/jquery.flexslider-v1.8.min.js"}
+    %script{type: "text/javascript", src: "/js/jquery.ba-hashchange-v1.3.min.js"}
+    %script{type: "text/javascript", src: "/js/main-r8.js"}

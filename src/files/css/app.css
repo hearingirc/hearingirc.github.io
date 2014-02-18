@@ -874,14 +874,6 @@ a.button:active, button:active, a.comment-reply-link:active, input[type="submit"
   border: 1px solid #313131;
   border-top: 1px solid #414141;
 }
-/* On-the-fly classes to change button's color (experimental)
-.blue {
-  background-color: #5891b5;
-  color: #033b5e;
-  text-shadow: 0 1px rgba(255, 255, 255, .35);
-  border: 1px solid #5891b5;
-}
-*/
 
 /* ie9 fails to render rounded-corners + gradient made with filter */
  .ie9 a.button, .ie9 a.button:visited, .ie9 a.comment-reply-link, .ie9 a.comment-reply-link:visied, .ie9 button, .ie9 input[type="submit"], .ie9 input[type="reset"], .ie9 input[type="button"] {
@@ -1064,8 +1056,8 @@ input[type="text"], input[type="password"], input[type="email"], textarea, selec
   -moz-transition:border 0.3s ease, background 0.3s ease, box-shadow 0.2s ease, color 0.6s ease;
   -o-transition:border 0.3s ease, background 0.3s ease, box-shadow 0.2s ease, color 0.6s ease;
   transition:border 0.3s ease, background 0.3s ease, box-shadow 0.2s ease, color 0.6s ease;
-  /* Act as display:block; 
-     see http://stackoverflow.com/questions/1030793/input-with-displayblock-is-not-a-block-why-not 
+  /* Act as display:block;
+     see http://stackoverflow.com/questions/1030793/input-with-displayblock-is-not-a-block-why-not
      ie7 isn't supported here, see static fix bellow */
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1687,7 +1679,7 @@ nav a span {
   font-weight : normal;
 }
 /* Content links */
- a, a:visited {
+ a, a:visited, h3 a, h3 a:visited, h4 a, h4 a:visited {
   color: #0092B2;
 }
 a:hover, a:focus {
@@ -1703,4 +1695,15 @@ a:hover, a:focus {
 img.alignleft, .entry-content .alignleft {
   margin: 4px 15px 0 0;
   float: left;
+}
+
+/* Breadcrumbs */
+.breadcrumb-list {
+  margin-left: 0;
+  margin-bottom: 20px;
+}
+
+.chevron {
+  padding-left: 5px;
+  padding-right: 5px;
 }
