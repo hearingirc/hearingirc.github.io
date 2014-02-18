@@ -1,0 +1,17 @@
+---
+layout: "default"
+---
+
+.container
+  .sixteen.columns
+    .breadcrumb-list
+      %a{href: "/"} Home
+      %span.chevron ›
+      %a{href: "/news/"} News
+      %span.chevron ›
+      %span.breadcrumb-current= document.title
+  .sixteen.columns
+    %h1= document.title
+    - if(document.date)
+    = content
+    %h5.date= 'Published on: ' + moment(document.date).format('L')

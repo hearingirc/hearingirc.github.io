@@ -1,0 +1,157 @@
+---
+layout: "default"
+---
+
+%article#about
+  .container
+    .row.box.dark
+      .seven.columns
+        .welcome-container
+          %h1 Hearing Industry Research Consortium
+          %p
+            The purpose of the Hearing Industry Research Consortium is to develop and direct a non-competitive, mutually agreed upon research agenda that benefits the hearing aid industry, its customers, and end-users.
+          %a.button.featured.animate{href: "#requests"} View Requests for Proposals
+      .nine.columns
+        .flexslider.animation-speed-slow.delay-between-slides-long.hide-controls
+          %ul.slides{style: "height: 280px;"}
+            %li{style: "width: 100%; float: left; margin-right: -100%; display: list-item;"}
+              %img{src: "img/listening2.png"}
+            %li{style: "width: 100%; float: left; margin-right: -100%; display: none;"}
+              %img{src: "img/listening4.png"}
+    .row
+      %h2 Here’s How We Pursue Our Purpose
+    .row
+      .one-third.column
+        %p
+          %img.alignleft.size-full{title: "one", src: "img/one.png", alt: "One", width: "70", height: "70"}
+        %h4 Identify
+        %p
+          Identifying non-competitive research topics, initiating requests for proposals (RFPs) in topic areas, and funding appropriate proposals
+      .one-third.column
+        %p
+          %img.alignleft.size-full{title: "two", src: "img/two.png", alt: "Two", width: "70", height:"70"}
+        %h4 Support
+        %p Supporting Educational Initiatives (e.g. research conferences)
+      .one-third.column
+        %p
+          %img.alignleft.size-full{title: "three", src: "img/three.png", alt: "Three", width: "70", height: "70"}
+        %h4 Create
+        %p Co-authoring Research Consortium position papers and conference presentations
+      .bottom-gradient.between-rows
+        %span.left
+        %span.center
+        %span.right
+      %h2 Who We Are
+      .one-third.column
+        %p
+          %img.alignleft.size-full{title: "Andrew Dittberner", src: "img/4.jpg", alt: "Andrew Dittberner", width: "74", height: "99"}
+        %h4 Andrew Dittberner
+        %p
+          %img.alignnone.size-full{title: "gn_resound", src: "img/gn_resound.png", alt: "", width: "172", height: "50"}
+      .one-third.column
+        %h4
+          %img.alignleft.size-full{title: "Brent Edwards", src: "img/51.jpg", alt: "", width: "74", height: "99"}
+          Brent Edwards
+        %p
+          %img.alignnone.size-full{title: "starkey", src: "img/starkey.png", alt: "", width: "130", height: "80"}
+      .one-third.column
+        %h4
+          %img.alignleft.size-full{title: "Graham Naylor", src: "img/1.jpg", alt: "Graham Naylor", width: "74", height: "99"}
+          Graham Naylor
+        %p
+          %img.alignnone.size-full{title: "oticon", src: "img/oticon.png", alt: "", width: "172", height: "80"}
+    .row
+      .one-third.column
+        %h4
+          %img.size-full.alignleft{title: "default", src: "img/JB.jpg", alt: "", width: "74", height: "99"}
+          Joel Beilin
+        %p
+          %img.alignnone.size-full{title: "Siemens", src: "img/Siemens.png", alt: "", width: "172", height: "57"}
+      .one-third.column
+        %h4
+          %img.alignleft.size-full{title: "Lars Sunesen", src: "img/3.jpg", alt: "Lars Sunesen", width: "74", height: "99"}
+          Lars Sunesen
+        %p
+          %img.alignnone.size-full{title: "widex", src: "img/widex.png", alt: "", width: "172", height: "50"}
+      .one-third.column
+        %h4
+          %img.alignleft.size-full{title: "Stefan Launer", src: "img/stefan.jpg", alt: "Stefan Launer", width: "74", height: "99"}
+          Stefan Launer
+        %p
+          %img.alignnone.size-full{title: "Phonak", src: "img/Phonak.png", alt: "", width: "130", height: "39"}
+        %p &nbsp;
+%article#news.dark
+  .container
+    .sixteen.columns.titleset
+      %h2.remove-bottom Latest News
+      %h6.subheader
+    %ul.display-posts-listing
+      :each newsItem in getCollection("newsItems").toJSON()
+        %li.listing-item
+          %a{href: "!{newsItem.url}"}= newsItem.title
+          %span.date= ' (' + moment(newsItem.date).format('L') + ') - '
+          %span.excerpt=  newsItem.summary
+    %p
+      %a{href: "news.html"} View All News
+%article#requests
+  .container
+    .sixteen.columns.titleset
+      %h2.remove-bottom Recent Requests for Proposals
+      %h6.subheader
+    .row
+      .two-thirds.column
+        .row
+          %h3
+            Download and read the&nbsp;
+            %a{href: "/forms/rfp.doc", target: "_blank"} Request for Proposal document.
+          %h4
+            After reading the RFP document, please download and fill out the&nbsp;
+            %a{href: "/forms/grant_application_form.doc", target: "_blank"} Grant Application Form
+            &nbsp;and&nbsp;
+            %a#contact-link{href: "mailto:contact@hearingirc.com"} email
+            &nbsp;it to us.
+        %p &nbsp;
+        #filelist1
+          %table{width: "100%", border: "0", cellpadding: "7"}
+            %ul
+              %li
+                %a{href: "/forms/grant_application_form.doc", target: "_blank"} Grant Application Form
+              %li
+                %a{href: "/forms/rfp.doc", target: "_blank"}
+                  RFP 2013 Perception of dynamic spatial listening scenarios.doc
+%article#contact.dark
+  .container
+    .sixteen.columns.titleset
+      %h2.remove-bottom Contact Us
+      %h6.subheader
+    .two-thirds.column
+      If you have any questions or need to get in touch, use the form below or&nbsp;
+      %a{title: "Contact Us", href: "mailto:contact@hearingirc.com"} email us.
+      %p
+
+      %form.send-with-ajax{method: "post"}
+        .row
+          .three.columns.alpha
+            %label{for: "form-name"}
+              Your Name
+              %span required
+          .seven.columns.omega
+            %input{type: "text", name: "name", id: "form-name", placeholder: "Your Name", required: "required"}
+        .row
+          .three.columns.alpha
+            %label{for: "form-email"}
+              Your Email
+              %span email required
+          %div.seven.columns.omega
+            %input{type: "email", name: "email", id: "form-email", placeholder: "your@email.com", required: "required"}
+        .row
+          .three.columns.alpha
+            %label{for: "form-message"} Message
+          .seven.columns.omega
+            %textarea{name: "message", id: "form-message"}
+        .seven.columns.offset-by-three
+          %button{type: "submit"} Submit Form
+          .ajax-response
+    .one-third.column
+      %a{href: "mailto:contact@hearingirc.com"} contact@hearingirc.com
+      %br

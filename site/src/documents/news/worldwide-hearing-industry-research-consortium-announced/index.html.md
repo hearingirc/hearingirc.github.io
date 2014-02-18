@@ -1,6 +1,9 @@
 ---
+date: 2012-09-04 12:00:00
 title: Worldwide Hearing Industry Research Consortium Announced
-date: 2012-09-04 12:00
+summary: "$300,000 Grant to be Awarded to Winning Proposal on Interaction of Cognition and Hearing Aids The hearing industry’s largest manufacturers have collaborated to create the Hearing Industry Research Consortium (IRC) to develop and direct a non-competitive, mutually agreed upon research agenda benefitting the hearing aid industry, its customers and end users. As its first act,..."
+isPage: true
+layout: news
 ---
 
 $300,000 Grant to be Awarded to Winning Proposal on Interaction of Cognition

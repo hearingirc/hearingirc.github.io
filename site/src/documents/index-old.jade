@@ -89,24 +89,12 @@ block content
         h2.remove-bottom Latest News
         h6.subheader
       ul.display-posts-listing
-        each newsItem in newsItems
+        each newsItem in env.helpers.getNewsItems(contents)
           li.listing-item
-            a.title(href="single.html")= newsItem.title
+            a.title(href=newsItem.url)= newsItem.title
             span.date
               = ' (' + moment.utc(newsItem.date).format('DD/MMMM/YYYY') + ') - '
             span.excerpt= newsItem.markdown
-      ul.display-posts-listing
-        li.listing-item
-          a.title(href="single.html") RFP 2013 Perception of dynamic spatial listening scenarios
-          span.date.
-            &nbsp;(6/10/2013) -&nbsp;
-          span.excerpt.
-            Dear colleagues, The hearing aid industry’s largest manufacturers have collaborated to create the Hearing Industry Research Consortium (IRC) to develop and direct a non-competitive, mutually agreed upon research agenda benefitting the hearing aid industry, its customers, and end users. The IRC is requesting proposals for a research project on “Perception of dynamic spatial listening scenarios”. […]
-        li.listing-item
-          a.title(href="single.html") Announcing the First IRC Grant Recipients
-          span.date &nbsp;(5/17/2013) -&nbsp;
-          span.excerpt
-            The Hearing Industry Research Consortium (IRC) is excited to announce the results of its first public Request For grant Proposals (RFP). Piers Dawes, Ph.D, Research Fellow at the University of Manchester, and Andrea Pittman, Ph.D., Associate Professor at Arizona State University, were selected to each receive $150,000 for their research proposals that are aimed to […]
       p
         a(href="news.html") View All News
   article#requests
@@ -121,7 +109,7 @@ block content
             h3
               After reading the RFP document, please download and fill out the IRC Research Grant Application Form and &nbsp;
               a#contact-link(href="mailto:contact@hearingirc.com") email
-              &nbsp;it to us.
+              | &nbsp;it to us.
           p &nbsp;
           div#filelist1
             table(width="100%" border="0" cellpadding="7")

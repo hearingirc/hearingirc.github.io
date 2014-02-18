@@ -1,0 +1,16 @@
+---
+title: Hearing IRC News
+layout: default
+---
+
+.container
+  .row
+    .sixteen.columns.titleset
+      %h1 Hearing IRC News
+      %ul.display-posts-listing
+        :each newsItem in getCollection("newsItems").toJSON()
+          %li.listing-item
+            %h3
+              %a{href: "!{newsItem.url}"}= newsItem.title
+            %span.date= 'Posted on ' + moment(newsItem.date).format('L')
+            = newsItem.contentRenderedWithoutLayouts
