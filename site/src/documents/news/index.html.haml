@@ -10,7 +10,15 @@ layout: default
       %ul.display-posts-listing
         :each newsItem in getCollection("newsItems").toJSON()
           %li.listing-item
-            %h3
-              %a{href: "!{newsItem.url}"}= newsItem.title
-            %span.date= 'Posted on ' + moment(newsItem.date).format('L')
-            = newsItem.contentRenderedWithoutLayouts
+            .post.type-post.status-publish.format-standard.hentry
+              %h3
+                %a{href: "!{newsItem.url}"}= newsItem.title
+              .post-meta
+                %span.date= 'Posted on ' + moment(newsItem.date).format('L')
+              .post-entry
+                = newsItem.contentRenderedWithoutLayouts
+          %br.clear
+          .bottom-gradient.add-top.add-bottom
+            %span.left
+            %span.center
+            %span.right
