@@ -11,7 +11,8 @@
     "docpad-plugin-haml": "~2.0.2",
     "docpad-plugin-livereload": "~2.6.0",
     "docpad-plugin-robotskirt": "~2.0.3",
-    "docpad-plugin-moment": "~2.0.2"
+    "docpad-plugin-moment": "~2.0.2",
+    "docpad-plugin-nodesass": "~2.2.1"
   },
   "main": "node_modules/docpad/bin/docpad-server",
   "scripts": {
