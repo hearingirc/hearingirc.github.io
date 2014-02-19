@@ -1,6 +1,7 @@
 ---
-title: "Announcing the First IRC Grant Recipients"
 date: "2013-05-17 12:00:00"
+url: "/news/announcing-the-first-irc-grant-recipients"
+title: "Announcing the First IRC Grant Recipients"
 isPage: true
 summary: 'The Hearing Industry Research Consortium (IRC) is excited to announce the results of its first public Request For grant Proposals (RFP). Piers Dawes, Ph.D, Research Fellow at the University of Manchester, and Andrea Pittman, Ph.D., Associate Professor at Arizona State University, were selected to each receive $150,000 for their research proposals that are aimed to...'
 layout: news

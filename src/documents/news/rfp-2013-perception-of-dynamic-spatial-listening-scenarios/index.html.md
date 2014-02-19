@@ -1,5 +1,6 @@
 ---
 date: "2013-06-10 12:00:00"
+url: "/news/rfp-2013-perception-of-dynamic-spatial-listening-scenarios"
 title: "RFP 2013 Perception of dynamic spatial listening scenarios"
 summary: 'Dear colleagues, The hearing aid industry’s largest manufacturers have collaborated to create the Hearing Industry Research Consortium (IRC) to develop and direct a non-competitive, mutually agreed upon research agenda benefitting the hearing aid industry, its customers, and end users. The IRC is requesting proposals for a research project on “Perception of dynamic spatial listening scenarios”.'
 isPage: true
