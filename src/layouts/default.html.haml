@@ -19,19 +19,19 @@
           %nav.menu.two-thirds.column.omega
             %ul.nav
               %li
-                %a.active{href: "/#about"} About
+                %a.navLinks.active{href: "#about"} About
                   %br
                   %span hearing aid irc
               %li
-                %a{href: "/#news"} News
+                %a.navLinks{href: "#news"} News
                   %br
                   %span the latest
               %li
-                %a{href: "/#requests"} Requests
+                %a.navLinks{href: "#requests"} Requests
                   %br
                   %span for proposals
               %li
-                %a{href: "/#contact"} Contact
+                %a.navLinks{href: "#contact"} Contact
                   %br
                   %span
                     get in touch
@@ -60,6 +60,7 @@
     %script{type: "text/javascript", src: "/js/jquery.flexslider-v1.8.min.js"}
     %script{type: "text/javascript", src: "/js/jquery.ba-hashchange-v1.3.min.js"}
     %script{type: "text/javascript", src: "/js/main-r8.js"}
+    %script{type: "text/javascript", src: "/js/smooth-scroll.js"}
     :javascript
       $(window).load(function() {
         $("body").removeClass("preload");
