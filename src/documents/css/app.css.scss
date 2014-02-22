@@ -1715,3 +1715,25 @@ img.alignleft, .entry-content .alignleft {
   padding-left: 5px;
   padding-right: 5px;
 }
+
+
+.wufoo {
+  height: 260px;
+  transition: 1s;
+}
+.wufoo.closed {
+  height: 0px;
+  overflow: hidden;
+  transition: 1s;
+  transition-delay: .4s;
+}
+.wufoo.closed iframe {
+  opacity: 0;
+  transition: 1s;
+  transition-delay: 0s;
+}
+.wufoo iframe {
+  opacity: 1;
+  transition: 1s;
+  transition-delay: .4s;
+}
