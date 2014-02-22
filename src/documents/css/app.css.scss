@@ -7,6 +7,14 @@
 * 8/17/2011
 */
 
+.preload * {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+}
+
+
 /* #Base 960 Grid
 ================================================== */
  .container {

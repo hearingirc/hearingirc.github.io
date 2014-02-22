@@ -8,12 +8,12 @@
     %link(rel="shortcut icon" href="/img/favicon-2.ico")
     = getBlock('scripts').toHTML()
     = getBlock('styles').add(['/css/app.css']).toHTML()
-  %body.home.blog.landing-page
+  %body.home.blog.landing-page.preload
     #main{role: "main"}
       %header
         .container
-          %h1.logo.one-third.column.alpha
-            %a{href: "/", title: "Hearing Industry Research Consortium"}
+          %a{href: "/", title: "Hearing Industry Research Consortium"}
+            %h1.logo.one-third.column.alpha
               %img.scale-with-grid{src: "/img/irclogo4.png", alt: "Hearing Industry Research Consortium"}
               %img.scale-with-grid.mobile-only{src: "/img/irclogosolo2.png", alt: "Hearing Industry Research Consortium"}
           %nav.menu.two-thirds.column.omega
@@ -60,3 +60,7 @@
     %script{type: "text/javascript", src: "/js/jquery.flexslider-v1.8.min.js"}
     %script{type: "text/javascript", src: "/js/jquery.ba-hashchange-v1.3.min.js"}
     %script{type: "text/javascript", src: "/js/main-r8.js"}
+    :javascript
+      $(window).load(function() {
+        $("body").removeClass("preload");
+      });
