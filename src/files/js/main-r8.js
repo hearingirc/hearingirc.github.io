@@ -298,8 +298,8 @@ function checkNavIntegrity() {
 				if(correspondingArticle.length == 0) {
 					var linkValue = $(this).html(),
 						targetId = linkHref.replace(/#/, '');
-					alert('Navigation Broken: The menu link "'+linkValue+'" points to a nonexistent ID "'+linkHref+'". \n'
-						 +'To solve this, change the link\'s target to a correct ID of one of the displayed sections (see "Theme Option" > "Landing-page Sections")');
+					// alert('Navigation Broken: The menu link "'+linkValue+'" points to a nonexistent ID "'+linkHref+'". \n'
+					// 	 +'To solve this, change the link\'s target to a correct ID of one of the displayed sections');
 				}
 		});
 	}
