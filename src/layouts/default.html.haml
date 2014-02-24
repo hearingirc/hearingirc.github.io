@@ -16,21 +16,25 @@
               %img.scale-with-grid{src: "/img/irclogo4.png", alt: "Hearing Industry Research Consortium", width: "300", height: "80"}
               %img.scale-with-grid.mobile-only{src: "/img/irclogosolo2.png", alt: "Hearing Industry Research Consortium", width: "50", height: "50"}
           %nav.menu.two-thirds.column.omega
+            -# This helps make anchor-based links on the root page, but
+            -# absolute URLs on all other pages. If removed, header links on
+            -# sub-pages will not work correctly.
+            - hrefHelp = document.url === "/index.html" ? "" : "/"
             %ul.nav
               %li
-                %a.navLinks.active{href: "#about"} About
+                %a.navLinks.active{href: "!{hrefHelp}#about"} About
                   %br
                   %span hearing aid irc
               %li
-                %a.navLinks{href: "#news"} News
+                %a.navLinks{href: "!{hrefHelp}#news"} News
                   %br
                   %span the latest
               %li
-                %a.navLinks{href: "#requests"} Requests
+                %a.navLinks{href: "!{hrefHelp}#requests"} Requests
                   %br
                   %span for proposals
               -# %li
-              -#   %a.navLinks{href: "#contact"} Contact
+              -#   %a.navLinks{href: "!{hrefHelp}#contact"} Contact
               -#     %br
               -#     %span
               -#       get in touch
