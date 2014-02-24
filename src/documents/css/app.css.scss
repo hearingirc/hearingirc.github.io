@@ -14,7 +14,61 @@
   -o-transition: none !important;
 }
 
+ol.proposalsteps {
+  counter-reset: li;
+  /* Initiate a counter */
+  margin-left: 0;
+  /* Remove the default left margin */
+  padding-left: 0;
+  /* Remove the default left padding */ }
 
+ol.proposalsteps > li {
+  position: relative;
+  /* Create a positioning context */
+  margin: 0 0 50px 3em;
+  /* Give each list item a left margin to make room for the numbers */
+  padding: 0px 34px;
+  /* Add some spacing around the content */
+  list-style: none;
+  /* Disable the normal item numbering */
+  font-size: 16px; }
+
+ol.proposalsteps > li:before {
+  content: counter(li);
+  /* Use the counter as content */
+  counter-increment: li;
+  /* Increment the counter by 1 */
+  /* Position and style the number */
+  position: absolute;
+  top: -4px;
+  left: -1em;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 1.5em;
+  height: 1.5em;
+  line-height: 62px;
+  /* Some space between the number and the content in browsers that support
+       generated content but not positioning it (Camino 2 is one example) */
+  margin-right: 8px;
+  padding: 0px auto;
+  color: #fff;
+  background: #FFCA3B;
+  border-radius: 100%;
+  font-weight: normal;
+  font-family: 'Open Sans', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  font-size: 44px; }
+
+.wufooform {
+  padding-left: 80px;
+  box-sizing: border-box; }
+
+.submission:before {
+  content: "Open "; }
+
+.submission.open:before {
+  content: "Close "; }
 /* #Base 960 Grid
 ================================================== */
  .container {

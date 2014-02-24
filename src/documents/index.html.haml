@@ -95,22 +95,40 @@ layout: "default"
       %a{href: "/news"} View All News
 %article#requests
   .container
-    .sixteen.columns.titleset
+    .two-thirds.column.titleset
       %h2.remove-bottom Current Request for Proposals
-      %h6.subheader
+      %h4 Get started here to get your proposal sent in. Follow the three steps below and your proposal will be processed as soon as possible.
     .row
       .two-thirds.column
         .row
-          %h3
-            Download and read the&nbsp;
-            %a{href: "/downloads/rfp.doc", target: "_blank"} Request for Proposal document.
-          %h4
-            After reading the RFP document, please download and fill out the&nbsp;
-            %a{href: "/downloads/grant_application_form.doc", target: "_blank"} Grant Application Form 
-             and then upload it via the  
-            %a.expand{href: "#submissionform"}RFP Submission form.
+          %ol.proposalsteps
+            %li
+              %h3 
+                %a{href: "/downloads/rfp.doc", target: "_blank"} Request for Proposal Document
+              %p 
+                First, it is important that you download and read the RFP document prior to filling out your application form.
+              %p
+                %a{href: "/downloads/rfp.doc", target: "_blank"} Download Request for Proposal Document
+
+            
+            %li
+              %h3
+                %a{href: "/downloads/grant_application_form.doc", target: "_blank"} Grant Application Form 
+              %p
+                After reading the RFP document, please download and fill out the Grant Application Form.
+              %p 
+                %a{href: "/downloads/grant_application_form.doc", target: "_blank"} Download Grant Application Form 
+
+            %li
+              %h3
+                %a.expand{href: "#submissionform"}RFP Submission Form
+              %p
+                Once you've read the RFP doc and completed the Grant Application form, upload your form via the RFP Submission Form.
+              %p
+                %a.expand.submission{href: "#submissionform"}RFP Submission Form
+            
           %p
-      .sixteen.columns
+      .sixteen.columns.wufooform
         #wufoo-zbsmevu19u5xc3.wufoo.closed
           Fill out my
             %a{href: "https://hearingirc.wufoo.com/forms/zbsmevu19u5xc3"} online form
@@ -131,14 +149,6 @@ layout: "default"
             try { zbsmevu19u5xc3 = new WufooForm();zbsmevu19u5xc3.initialize(options);zbsmevu19u5xc3.display(); } catch (e) {}};
             var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
             })(document, 'script');
-        #filelist1
-          %table{width: "100%", border: "0", cellpadding: "7"}
-            %ul
-              %li
-                %a{href: "/forms/grant_application_form.doc", target: "_blank"} Grant Application Form
-              %li
-                %a{href: "/forms/rfp.doc", target: "_blank"}
-                  RFP 2013 Perception of dynamic spatial listening scenarios.doc
 
 -# %article#contact.dark
 -#   .container
