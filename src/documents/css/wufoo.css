@@ -1,0 +1,320 @@
+/* Backgrounds */
+html {
+	background-image:none;
+	background-color:transparent !important;
+}
+
+
+.safari input.btTxt {
+	display: block;
+	text-align: center;
+	font-size: 14px;
+	line-height: auto;
+	padding: 7px 20px;
+	-webkit-border-radius: 18px;
+	-moz-border-radius: 18px;
+	border-radius: 18px;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¦EiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top, rgba(255, 255, 255, 0.09) 0%, rgba(255, 255, 255, 0) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0.09)), color-stop(100%, rgba(255, 255, 255, 0)));
+	background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.09) 0%, rgba(255, 255, 255, 0) 100%);
+	background: -o-linear-gradient(top, rgba(255, 255, 255, 0.09) 0%, rgba(255, 255, 255, 0) 100%);
+	background: -ms-linear-gradient(top, rgba(255, 255, 255, 0.09) 0%, rgba(255, 255, 255, 0) 100%);
+	background: linear-gradient(top, rgba(255, 255, 255, 0.09) 0%, rgba(255, 255, 255, 0) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#17ffffff', endColorstr='#00ffffff', GradientType=0);
+	background-color: #202020;
+	border: none;
+	color: #eee;
+	text-shadow: 1px 1px black;
+	-moz-box-shadow: 0px 1px 5px 0px #ccc, 0px 0px 1px 0px rgba(255, 255, 255, 0.2) inset;
+	-webkit-box-shadow: 0px 1px 5px 0px #ccc, 0px 0px 1px 0px rgba(255, 255, 255, 0.2) inset;
+	box-shadow: 0px 1px 5px 0px #ccc, 0px 0px 1px 0px rgba(255, 255, 255, 0.2) inset;
+	cursor: pointer;
+}
+
+.wufoo .info, .wufoo .paging-context {
+border-bottom: 1px solid #cccccc;
+box-shadow: 0px 1px 0px #fff;
+padding: 0px;
+}
+.wufoo input.text, .wufoo textarea.textarea {
+	font-size: 23px;
+	padding: 5px;
+	box-sizing: border-box;
+	outline: none;
+	border: 1px dashed #eee;
+	color: #404040;
+	background: #fff;
+	-webkit-box-shadow: 0px 0px 2px 1px rgba(255, 255, 255, 0.4);
+	-moz-box-shadow: 0px 0px 2px 1px rgba(255, 255, 255, 0.4);
+	box-shadow: 0px 0px 2px 1px rgba(255, 255, 255, 0.4);
+	::-webkit-input-placeholder { color:#666; font-style: italic; }
+	::-moz-placeholder { color:#666; font-style: italic; } /* firefox 19+ */
+	:-ms-input-placeholder { color:#666; font-style: italic; } /* ie */
+	input:-moz-placeholder { color:#666; font-style: italic; }
+}
+.wufoo input.text:focus, .wufoo textarea.textarea:focus {
+	box-shadow: 0px 0px 10px #FFCA3B;
+}
+
+form .instruct {
+	top: 20px;
+}
+
+.safari .wufoo input.file {
+	font-size: 16px;
+	line-height: 14px;
+	outline: none;
+	cursor: pointer;
+}
+
+.wufoo li.focused {
+background-color: transparent;
+}
+
+form.wufoo {
+  border-bottom: 1px solid #fff;
+  margin-bottom: 2px;
+  -webkit-box-shadow: inset 0px -1px 0px 0px #ccc;
+  -moz-box-shadow: inset 0px -1px 0px 0px #ccc;
+  box-shadow: inset 0px -1px 0px 0px #ccc;
+  background: -webkit-radial-gradient(bottom center, circle, rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0) 50%);
+  background: -moz-radial-gradient(bottom center, rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0) 50%);
+}
+
+
+/* #Typography
+================================================== */
+ h1, h2, h3, h4, h5, h6 {
+  color: #404040;
+  font-family:'Open Sans', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  text-shadow: 0px 1px 0px #fff;
+}
+.dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {
+  color: #efefef;
+  text-shadow: 0px 2px #000;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  color: inherit;
+  font-weight: inherit;
+  text-decoration: none;
+}
+h1 {
+  font-size: 35px;
+  line-height: 40px;
+  margin-bottom: 10px;
+}
+h2 {
+  font-size: 28px !important;
+  line-height: 34px;
+  margin-bottom: 8px;
+}
+h3 {
+  font-size: 21px;
+  line-height: 30px;
+  margin-bottom: 4px;
+}
+h4 {
+  font-size: 17px;
+  line-height: 24px;
+}
+h5 {
+  font-size: 14px;
+  line-height: 21px;
+}
+h6 {
+  font-size: 13px;
+  line-height: 19px;
+}
+.subheader {
+  color: #777;
+}
+.dark .subheader {
+  color: #ccc;
+  text-shadow: none;
+}
+p {
+  margin: 0 0 20px 0;
+}
+p img {
+  margin: 0;
+}
+p.lead {
+  font-size: 21px;
+  line-height: 27px;
+  color: #777;
+}
+em {
+  font-style: italic;
+}
+strong {
+  font-weight: bold;
+  color: #333;
+}
+.dark strong {
+  color: #dbdbdb;
+}
+small {
+  font-size: 80%;
+}
+/*  Blockquotes  */
+ blockquote, blockquote p {
+  font-size: 15px;
+  line-height: 24px;
+  color: #777;
+  font-style: italic;
+}
+blockquote {
+  margin: 0 0 20px;
+  padding: 9px 20px 0 19px;
+  border-left: 1px solid #ddd;
+}
+blockquote cite {
+  display: block;
+  font-size: 14px;
+  color: #555;
+}
+blockquote cite:before {
+  content:"\2014 \0020";
+}
+blockquote cite a, blockquote cite a:visited, blockquote cite a:visited {
+  color: #555;
+}
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #fff;
+  clear: both;
+  margin: 10px 0;
+  height: 0;
+}
+.dark hr {
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #2c2c2c;
+}
+::selection {
+  color: #fff;
+  -webkit-text-fill-color: #fff;
+  background: rgba(34, 34, 34, .99);
+  text-shadow: none;
+}
+.dark ::selection {
+  color: #111;
+  -webkit-text-fill-color: #111;
+  background: rgba(255, 255, 255, .99);
+  text-shadow: none;
+}
+img::selection {
+  background: rgba(0, 0, 0, .3);
+}
+.dark img::selection {
+  background: rgba(0, 0, 0, .3);
+}
+::-moz-selection {
+  color: #fff;
+  -webkit-text-fill-color: #fff;
+  background: rgba(34, 34, 34, .99);
+  text-shadow: none;
+}
+.dark ::-moz-selection {
+  color: #111;
+  -webkit-text-fill-color: #111;
+  background: rgba(255, 255, 255, .99);
+  text-shadow: none;
+}
+img::-moz-selection {
+  background: rgba(0, 0, 0, .3);
+}
+.dark img::-moz-selection {
+  background: rgba(0, 0, 0, .3);
+}
+/* #Links
+================================================== */
+ a, a:visited, button {
+  color: #555;
+  text-decoration: underline;
+  outline: 0;
+  -webkit-transition: color 1s ease;
+  -moz-transition: color 1s ease;
+  -o-transition: color 1s ease;
+  transition:color 1s ease;
+}
+a:hover, a:focus, button:hover {
+  color: #000;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+p a, p a:visited {
+  line-height: inherit;
+}
+.dark a, .dark a:visited {
+  color:#999;
+}
+.dark a:hover, .dark a:focus {
+  color: #fff;
+}
+a img {
+  opacity: 1;
+  -webkit-transition:opacity 1s ease;
+  -moz-transition:opacity 1s ease;
+  -o-transition:opacity 1s ease;
+  transition:opacity 1s ease;
+}
+a:hover img {
+  zoom: 1;
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+  -webkit-transition:opacity 0.3s ease;
+  -moz-transition:opacity 0.3s ease;
+  -o-transition:opacity 0.3s ease;
+  transition:opacity 0.3s ease;
+}
+.no-transition {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -o-transition: all 0 ease !important;
+  transition: none !important;
+}
+/* #Lists
+================================================== */
+ ul, ol {
+  margin-bottom: 20px;
+}
+ul {
+  list-style: none outside;
+}
+ol {
+  list-style: decimal;
+}
+ol, ul.square, ul.circle, ul.disc {
+  margin-left: 30px;
+}
+ul.square {
+  list-style: square outside;
+}
+ul.circle {
+  list-style: circle outside;
+}
+ul.disc {
+  list-style: disc outside;
+}
+ul ul, ul ol, ol ol, ol ul {
+  margin: 4px 0 5px 30px;
+  font-size: 90%;
+}
+ul ul li, ul ol li, ol ol li, ol ul li {
+  margin-bottom: 6px;
+}
+li {
+  line-height: 18px;
+  margin-bottom: 12px;
+}
+ul.large li {
+  line-height: 21px;
+}
+li p {
+  line-height: 21px;
+}
