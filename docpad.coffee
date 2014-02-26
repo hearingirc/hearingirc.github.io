@@ -9,10 +9,18 @@ docpadConfig = {
   collections:
     newsItems: ->
       @getCollection("html").findAllLive({isPage:true}, [date:-1])
+  templateData:
+    site:
+      url: "http://hearingirc.com"
   plugins:
     robotskirt:
       robotskirtOptions:
         HTML_HARD_WRAP: false
+    sitemap:
+      cachetime: 600000
+      changefreq: 'weekly'
+      priority: 0.5
+      filePath: 'sitemap.xml'
 }
 
 # Export the DocPad Configuration

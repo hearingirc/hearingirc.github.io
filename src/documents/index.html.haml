@@ -1,5 +1,6 @@
 ---
 layout: "default"
+priority: 0.8
 ---
 
 %article#about
@@ -103,21 +104,21 @@ layout: "default"
         .row
           %ol.proposalsteps
             %li
-              %h3 
+              %h3
                 %a{href: "/downloads/rfp.doc", target: "_blank"} Request for Proposal Document
-              %p 
+              %p
                 First, it is important that you download and read the RFP document prior to filling out your application form.
               %p
                 %a{href: "/downloads/rfp.doc", target: "_blank"} Download Request for Proposal Document
 
-            
+
             %li
               %h3
-                %a{href: "/downloads/grant_application_form.doc", target: "_blank"} Grant Application Form 
+                %a{href: "/downloads/grant_application_form.doc", target: "_blank"} Grant Application Form
               %p
                 After reading the RFP document, please download and fill out the Grant Application Form.
-              %p 
-                %a{href: "/downloads/grant_application_form.doc", target: "_blank"} Download Grant Application Form 
+              %p
+                %a{href: "/downloads/grant_application_form.doc", target: "_blank"} Download Grant Application Form
 
             %li
               %h3
@@ -126,7 +127,7 @@ layout: "default"
                 Once you've read the RFP doc and completed the Grant Application form, upload your form via the RFP Submission Form.
               %p
                 %a.expand.submission{href: "#submissionform"}RFP Submission Form
-            
+
           %p
       .sixteen.columns.wufooform
         #wufoo-zbsmevu19u5xc3.wufoo.closed
@@ -135,13 +136,13 @@ layout: "default"
           :javascript
             var zbsmevu19u5xc3;(function(d, t) {
             var s = d.createElement(t), options = {
-            'userName':'hearingirc', 
-            'formHash':'zbsmevu19u5xc3', 
+            'userName':'hearingirc',
+            'formHash':'zbsmevu19u5xc3',
             'autoResize':true,
             'height':'320',
             'async':true,
             'host':'wufoo.com',
-            'header':'show', 
+            'header':'show',
             'ssl':false};
             s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'wufoo.com/scripts/embed/form.js';
             s.onload = s.onreadystatechange = function() {
@@ -149,40 +150,3 @@ layout: "default"
             try { zbsmevu19u5xc3 = new WufooForm();zbsmevu19u5xc3.initialize(options);zbsmevu19u5xc3.display(); } catch (e) {}};
             var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
             })(document, 'script');
-
--# %article#contact.dark
--#   .container
--#     .sixteen.columns.titleset
--#       %h2.remove-bottom Contact Us
--#       %h6.subheader
--#     .two-thirds.column
--#       If you have any questions or need to get in touch, use the form below or&nbsp;
--#       %a{title: "Contact Us", href: "mailto:contact@hearingirc.com"} email us.
--#       %p
-
--#       %form.send-with-ajax{method: "post"}
--#         .row
--#           .three.columns.alpha
--#             %label{for: "form-name"}
--#               Your Name
--#               %span required
--#           .seven.columns.omega
--#             %input{type: "text", name: "name", id: "form-name", placeholder: "Your Name", required: "required"}
--#         .row
--#           .three.columns.alpha
--#             %label{for: "form-email"}
--#               Your Email
--#               %span email required
--#           %div.seven.columns.omega
--#             %input{type: "email", name: "email", id: "form-email", placeholder: "your@email.com", required: "required"}
--#         .row
--#           .three.columns.alpha
--#             %label{for: "form-message"} Message
--#           .seven.columns.omega
--#             %textarea{name: "message", id: "form-message"}
--#         .seven.columns.offset-by-three
--#           %button{type: "submit"} Submit Form
--#           .ajax-response
--#     .one-third.column
--#       %a{href: "mailto:contact@hearingirc.com"} contact@hearingirc.com
--#       %br
