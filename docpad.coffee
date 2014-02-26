@@ -21,6 +21,10 @@ docpadConfig = {
       changefreq: 'weekly'
       priority: 0.5
       filePath: 'sitemap.xml'
+    rss:
+      default:
+        collection: 'newsItems'
+        url: '/rss.xml'
 }
 
 # Export the DocPad Configuration
