@@ -96,39 +96,39 @@ priority: 0.8
       %a{href: "/news"} View All News
 %article#requests
   .container
-    .two-thirds.column.titleset
-      %h2.remove-bottom Current Request for Proposals
-      %h4 Get started here to get your proposal sent in. Follow the three steps below and your proposal will be processed as soon as possible.
     .row
-      .two-thirds.column
-        .row
-          %ol.proposalsteps
-            %li
-              %h3
-                %a{href: "/downloads/rfp.doc", target: "_blank"} Request for Proposal Document
-              %p
-                First, it is important that you download and read the RFP document prior to filling out your application form.
-              %p
-                %a{href: "/downloads/rfp.doc", target: "_blank"} Download Request for Proposal Document
+      .sixteen.columns.titleset
+        %h2.remove-bottom Current Request for Proposals
+        %h4 Get started here to get your proposal sent in. Follow the three steps below and your proposal will be processed as soon as possible.
+    .row
+      .sixteen.columns
+        %ol.proposalsteps
+          %li
+            %h3
+              %a{href: "/downloads/rfp.doc", target: "_blank"} Request for Proposal Document
+            %p
+              First, it is important that you download and read the RFP document prior to filling out your application form.
+            %p
+              %a{href: "/downloads/rfp.doc", target: "_blank"} Download Request for Proposal Document
 
 
-            %li
-              %h3
-                %a{href: "/downloads/grant_application_form.doc", target: "_blank"} Grant Application Form
-              %p
-                After reading the RFP document, please download and fill out the Grant Application Form.
-              %p
-                %a{href: "/downloads/grant_application_form.doc", target: "_blank"} Download Grant Application Form
+          %li
+            %h3
+              %a{href: "/downloads/grant_application_form.doc", target: "_blank"} Grant Application Form
+            %p
+              After reading the RFP document, please download and fill out the Grant Application Form.
+            %p
+              %a{href: "/downloads/grant_application_form.doc", target: "_blank"} Download Grant Application Form
 
-            %li
-              %h3
-                %a.expand{href: "#submissionform"}RFP Submission Form
-              %p
-                Once you've read the RFP doc and completed the Grant Application form, upload your form via the RFP Submission Form.
-              %p
-                %a.expand.submission{href: "#submissionform"}RFP Submission Form
+          %li
+            %h3
+              %a.expand{href: "#submissionform"}RFP Submission Form
+            %p
+              Once you've read the RFP doc and completed the Grant Application form, upload your form via the RFP Submission Form.
+            %p
+              %a.expand.submission{href: "#submissionform"}RFP Submission Form
 
-          %p
+        %p
       .sixteen.columns.wufooform
         #wufoo-zbsmevu19u5xc3.wufoo.closed
           Fill out my
@@ -150,3 +150,36 @@ priority: 0.8
             try { zbsmevu19u5xc3 = new WufooForm();zbsmevu19u5xc3.initialize(options);zbsmevu19u5xc3.display(); } catch (e) {}};
             var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
             })(document, 'script');
+    .row
+      .sixteen.columns.previous-grants
+        %h2 Previous Awards
+
+        .annual-rfp
+          %h3 2013
+
+          %dl.dl-horizontal
+            %dt Topic
+            %dd
+              %a(href="/downloads/rfp_archive/2013_perception_of_dynamic_spatial_listening_scenarios_rfp.doc") Perception of Dynamic Spatial Listening Scenarios
+            %dt Recipients
+            %dd
+              %ul.grant-recipients.list-inline
+                %li.recipient TBA
+
+        %hr
+        .annual-rfp
+          %h3 2012
+
+          %dl.dl-horizontal
+            %dt
+              Topic
+            %dd
+              %a(href="/downloads/rfp_archive/2012_cognition_rfp.doc") Cognition
+            %dt Recipients
+            %dd
+              %ul.grant-recipients.list-inline
+                %li.recipient Piers Dawes, Ph.D
+                %li.recipient Andrea Pittman, Ph.D
+            %dt Announcement
+            %dd
+              %a.announcement(href="/news/announcing-the-first-irc-grant-recipients") Announcing the First IRC Grant Recipients
