@@ -1,0 +1,117 @@
+#!/usr/bin/env ruby
+
+require 'highline/import'
+require 'rugged'
+
+# Gives more humane output from proc-based validation
+# failures
+class Validator < Proc
+  def initialize(failure_message, &block)
+    @message = failure_message;
+    @validation = block
+  end
+
+  def inspect
+    @message
+  end
+end
+
+def colored(message, type = :prompt)
+  hue = case type
+        when :info   then :green
+        when :prompt then :yellow
+        when :error  then :red
+        else :green
+        end
+
+  "<%= color '#{message}', :#{hue} %>"
+end
+
+def do_or_exit(message, command)
+  say colored(message, :info)
+  exit(1) unless system(command)
+end
+
+def commit_message(repo)
+  summary_validator = Validator.new("a length of 5-50 characters") {|r| (5..50).include?(r.length)}
+  message = ""
+
+  loop do
+    puts ""
+    message += ask(colored("Summarize updates (1-line, 5-50 chars):")) {|q|
+      q.validate = summary_validator
+    }
+
+    message += "\n\n" + ask(colored("Details (markdown, please)?")) {|q| q.gather = ""}.join("\n")
+    message += "[ based on: #{repo.tip_commit_id} ]"
+
+    say colored("Ok. Just to review")
+    say colored("####################", :info)
+    puts message
+    say colored("####################", :info)
+
+    break if agree(colored("Look good?"), true)
+  end
+
+  message
+end
+
+module RepoExtentions
+  def tip_commit_id(branch = "development")
+    Rugged::Branch.lookup(self, branch).tip.oid
+  end
+
+  def uncommitted_changes?
+    !diff_workdir(tip_commit_id).deltas.empty?
+  end
+end
+
+########################### Starts here
+
+repo = Rugged::Repository.new('./')
+repo.extend(RepoExtentions)
+
+if repo.uncommitted_changes?
+  say colored("You have uncommitted changes. Exiting.", :error)
+  exit(1)
+end
+
+puts "\n\n"
+do_or_exit "Okay. Commiting current state of development branch to master...",
+           "git checkout development > /dev/null 2>&1"
+
+do_or_exit "Cleaning up previous build of site...",
+           "docpad clean > /dev/null 2>&1"
+
+do_or_exit "Generating new version of site...",
+           "docpad generate -e production > /dev/null 2>&1"
+
+do_or_exit "Updating deployment branch (master) with new content...",
+           "git checkout master > /dev/null 2>&1 && cp -r out/* ./"
+
+
+# Do a quick gut-check on the repo status
+puts `git status`
+puts "\n\n"
+
+# If you want to back out...
+if !agree(colored("Last chance. Look good (Y/n)? "), true)
+  say colored("Ok. Cancelling...", :info)
+  do_or_exit "Cleaning up changed files...",
+             "git reset --hard HEAD\
+              && git clean -f\
+              && git checkout development"
+
+  say colored("Exiting. Please run again.", :info)
+  exit 0;
+end
+
+#...let's do it
+do_or_exit "Preparing commit...",
+           "git add . \
+            && git commit -m '#{commit_message(repo)}'\
+            && git checkout development > /dev/null 2>&1"
+
+say colored("Done.", :info)
+say colored("(Note: You are back on the development branch...)", :info)
+exit 0
