@@ -1,5 +1,16 @@
-<!DOCTYPE html>
-<html><head><meta charset="utf-8" /><meta name="viewport" content="width=device-width initial-scale=1.0" /><title>Hearing IRC News</title><link rel="alternate" type="application/rss+xml" href="rss.xml" title="HearingIRC News" /><link rel="shortcut icon" href="/img/favicon-2.ico" /><link  rel="stylesheet" href="/css/app.css" /></head><body class="home blog landing-page preload"><div role="main" id="main"><header><div class="container"><a href="/" title="Hearing Industry Research Consortium"><h1 class="logo one-third column alpha"><img src="/img/irclogo4.png" alt="Hearing Industry Research Consortium" width="300" height="80" class="scale-with-grid" /><img src="/img/irclogosolo2.png" alt="Hearing Industry Research Consortium" width="50" height="50" class="scale-with-grid mobile-only" /></h1></a><nav class="menu two-thirds column omega"><ul class="nav"><li><a href="/#about" class="navLinks active">About<br /><span>hearing aid irc</span></a></li><li><a href="/#news" class="navLinks">News<br /><span>the latest</span></a></li><li><a href="/#requests" class="navLinks">Requests<br /><span>for proposals</span></a></li></ul></nav></div><div class="bottom-gradient"><span class="left"></span><span class="center"></span><span class="right"></span></div></header><article><div class="container"><div class="row"><div class="sixteen columns"><div class="breadcrumb-list"><a href="/">Home</a><span class="chevron">›</span><span class="breadcrumb-current">News</span></div></div></div><div class="row"><div class="sixteen columns"><h1>Hearing IRC News</h1><div class="row"><div class="sixteen columns titleset"><ul class="display-posts-listing"><li class="listing-item"><div class="post type-post status-publish format-standard hentry"><h3><a href="/news/rfp-2013-perception-of-dynamic-spatial-listening-scenarios">RFP 2013 Perception of dynamic spatial listening scenarios</a></h3><div class="post-meta"><span class="date">Posted on 06/10/2013</span></div><div class="post-entry"><p>Dear colleagues,</p>
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[Untitled RSS Feed]]></title>
+        <description><![CDATA[Untitled RSS Feed]]></description>
+        <link>http://hearingirc.com</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Thu, 27 Feb 2014 05:43:51 GMT</lastBuildDate>
+        <atom:link href="http://hearingirc.com/rss.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Thu, 27 Feb 2014 05:43:47 GMT</pubDate>
+        <item>
+            <title><![CDATA[RFP 2013 Perception of dynamic spatial listening scenarios]]></title>
+            <description><![CDATA[<p>Dear colleagues,</p>
 
 <p>The hearing aid industry’s largest manufacturers have collaborated to create
 the Hearing Industry Research Consortium (IRC) to develop and direct a
@@ -30,7 +41,14 @@ Stefan Launer</p>
 
 <p>VP Science and Technology<br>
 Phonak AG</p>
-</div></div></li><br class="clear" /><div class="bottom-gradient add-top add-bottom"><span class="left"></span><span class="center"></span><span class="right"></span></div><li class="listing-item"><div class="post type-post status-publish format-standard hentry"><h3><a href="/news/announcing-the-first-irc-grant-recipients">Announcing the First IRC Grant Recipients</a></h3><div class="post-meta"><span class="date">Posted on 05/17/2013</span></div><div class="post-entry"><p>The <a href="http://hearingirc.com/#about">Hearing Industry Research Consortium</a> (IRC)
+]]></description>
+            <link>http://hearingirc.com/news/rfp-2013-perception-of-dynamic-spatial-listening-scenarios</link>
+            <guid isPermaLink="true">http://hearingirc.com/news/rfp-2013-perception-of-dynamic-spatial-listening-scenarios</guid>
+            <pubDate>Mon, 10 Jun 2013 17:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Announcing the First IRC Grant Recipients]]></title>
+            <description><![CDATA[<p>The <a href="http://hearingirc.com/#about">Hearing Industry Research Consortium</a> (IRC)
 is excited to announce the results of its first public Request For grant
 Proposals (RFP). Piers Dawes, Ph.D, Research Fellow at the University of
 Manchester, and Andrea Pittman, Ph.D., Associate Professor at Arizona State
@@ -70,7 +88,14 @@ outstanding researchers at world-class universities.”</p>
 <p>The IRC will repeat the funding of new research projects every year, with
 different research goals for each RFP. A new RFP for 2013 will be released this
 coming summer.</p>
-</div></div></li><br class="clear" /><div class="bottom-gradient add-top add-bottom"><span class="left"></span><span class="center"></span><span class="right"></span></div><li class="listing-item"><div class="post type-post status-publish format-standard hentry"><h3><a href="/news/worldwide-hearing-industry-research-consortium-announced">Worldwide Hearing Industry Research Consortium Announced</a></h3><div class="post-meta"><span class="date">Posted on 09/04/2012</span></div><div class="post-entry"><p>$300,000 Grant to be Awarded to Winning Proposal on Interaction of Cognition
+]]></description>
+            <link>http://hearingirc.com/news/announcing-the-first-irc-grant-recipients</link>
+            <guid isPermaLink="true">http://hearingirc.com/news/announcing-the-first-irc-grant-recipients</guid>
+            <pubDate>Fri, 17 May 2013 17:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Worldwide Hearing Industry Research Consortium Announced]]></title>
+            <description><![CDATA[<p>$300,000 Grant to be Awarded to Winning Proposal on Interaction of Cognition
 and Hearing Aids</p>
 
 <p>The hearing industry’s largest manufacturers have collaborated to create the
@@ -99,38 +124,18 @@ Starkey Hearing Technologies and Widex. The IRC was created to have a
 non-competitive, mutually agreed upon research agenda benefitting the hearing
 aid industry, its customers and end users. For more information about the
 Hearing Industry Research Consortium, visit <a href="http://www.hearingirc.com">www.hearingirc.com</a>.</p>
-</div></div></li><br class="clear" /><div class="bottom-gradient add-top add-bottom"><span class="left"></span><span class="center"></span><span class="right"></span></div><li class="listing-item"><div class="post type-post status-publish format-standard hentry"><h3><a href="/news/industry-research-consortium-has-a-new-website">Industry Research Consortium has a new website</a></h3><div class="post-meta"><span class="date">Posted on 07/11/2012</span></div><div class="post-entry"><p>The hearing industry research consortium has a new website to support industry-wide research initiatives.</p>
-</div></div></li><br class="clear" /><div class="bottom-gradient add-top add-bottom"><span class="left"></span><span class="center"></span><span class="right"></span></div></ul></div></div><h5 class="date">Published on: 02/26/2014</h5></div></div></div></article><article id="footer"><div class="container"><div class="two-thirds column"><p>Copyright &copy;
-<script type="text/javascript">
-//<![CDATA[
-<!--
-  var year = new Date();
-  year = year.getYear();
-  if (year < 1900) year += 1900;
-  document.write(year);
-   //-->
-//]]>
-</script>
-&nbsp;Hearing IRC, All Rights Reserved.</p></div><div class="one-third column"><a href="mailto:contact@hearingirc.com">contact@hearingirc.com</a></div></div></article></div><script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><script type="text/javascript" src="/js/jquery.flexslider-v1.8.min.js"></script><script type="text/javascript" src="/js/jquery.ba-hashchange-v1.3.min.js"></script><script type="text/javascript" src="/js/main-r8.js"></script>
-<script type="text/javascript">
-//<![CDATA[
-$(window).load(function() {
-  $("body").removeClass("preload");
-});
-$(document).ready(function () {
-  $(".expand").click(function () {
-    $(this).toggleClass("open");
-    $(".wufoo").toggleClass("closed");
-  });
-});
-
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'UA-34131423-1', 'hearingirc.com');
-ga('send', 'pageview');
-//]]>
-</script>
-</body></html>
+]]></description>
+            <link>http://hearingirc.com/news/worldwide-hearing-industry-research-consortium-announced</link>
+            <guid isPermaLink="true">http://hearingirc.com/news/worldwide-hearing-industry-research-consortium-announced</guid>
+            <pubDate>Tue, 04 Sep 2012 17:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Industry Research Consortium has a new website]]></title>
+            <description><![CDATA[<p>The hearing industry research consortium has a new website to support industry-wide research initiatives.</p>
+]]></description>
+            <link>http://hearingirc.com/news/industry-research-consortium-has-a-new-website</link>
+            <guid isPermaLink="true">http://hearingirc.com/news/industry-research-consortium-has-a-new-website</guid>
+            <pubDate>Wed, 11 Jul 2012 17:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
