@@ -43,7 +43,7 @@ def commit_message(repo)
     }
 
     message += "\n\n" + ask(colored("Details (markdown, please)?")) {|q| q.gather = ""}.join("\n")
-    message += "[ based on: #{repo.tip_commit_id} ]"
+    message += "\n[ based on: #{repo.tip_commit_id} ]"
 
     say colored("Ok. Just to review")
     say colored("####################", :info)
