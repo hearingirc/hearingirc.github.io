@@ -13,7 +13,48 @@
   -ms-transition: none !important;
   -o-transition: none !important;
 }
-
+.steps {
+  position: relative;
+  .step {
+    padding-left: 80px;
+  }
+  &:before {
+    content: "1";
+    position: absolute;
+    top: 0px;
+    left: 0em;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 1.5em;
+    height: 1.5em;
+    line-height: 62px;
+    margin-right: 70px;
+    padding: 0px auto;
+    color: #fff;
+    background: #FFCA3B;
+    border-radius: 100%;
+    font-weight: normal;
+    font-family: 'Open Sans', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-size: 44px; 
+  }
+  &.one {
+    &:before {
+      content: "1"
+    }
+  }
+  &.two {
+    &:before {
+      content: "2"
+    }
+  }
+  &.three {
+    &:before {
+      content: "3"
+    }
+  }
+}
 ol.proposalsteps {
   counter-reset: li;
   /* Initiate a counter */
