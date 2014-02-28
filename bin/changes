@@ -19,4 +19,4 @@ LastReleaseId=`git log origin/master |grep "based on:" |head -1 |awk '{print $4}
 # Show changes since then, one line per commit...with the '+' stripped and replaced
 # with a '*' (For Markdown list...I prefer '*' over '+' for lists...even though they
 # equivalent in Markdown.).
-git log $LastReleaseId.. --format=oneline |colrm 1 41|grep ^+ |sed 's/^+/*/'
+git log $LastReleaseId.. --format=oneline |colrm 1 41|grep ^+ |sed 's/^+ /* /'
