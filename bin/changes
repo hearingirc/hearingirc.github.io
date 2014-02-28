@@ -1,0 +1,5 @@
+#!/bin/bash
+
+git checkout development > /dev/null 2>&1
+LastReleaseId=`git log master |grep "based on:" |head -1 |awk '{print $4}'`
+git log $LastReleaseId.. --format=oneline |colrm 1 41
