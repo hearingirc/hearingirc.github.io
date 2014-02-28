@@ -12,6 +12,37 @@
   -ms-transition: none !important;
   -o-transition: none !important; }
 
+.steps {
+  position: relative; }
+  .steps .step {
+    padding-left: 80px; }
+  .steps:before {
+    content: "1";
+    position: absolute;
+    top: 0px;
+    left: 0em;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 1.5em;
+    height: 1.5em;
+    line-height: 62px;
+    margin-right: 70px;
+    padding: 0px auto;
+    color: #fff;
+    background: #FFCA3B;
+    border-radius: 100%;
+    font-weight: normal;
+    font-family: 'Open Sans', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-size: 44px; }
+  .steps.one:before {
+    content: "1"; }
+  .steps.two:before {
+    content: "2"; }
+  .steps.three:before {
+    content: "3"; }
+
 ol.proposalsteps {
   counter-reset: li;
   /* Initiate a counter */
@@ -60,7 +91,8 @@ ol.proposalsteps > li:before {
 
 dl {
   margin-top: 0;
-  margin-bottom: 20px; }
+  margin-bottom: 16px;
+  font-size: 16px; }
 
 dt, dd {
   line-height: 1.42857; }
@@ -76,7 +108,7 @@ dd {
   width: 120px;
   overflow: hidden;
   clear: left;
-  text-align: right;
+  text-align: left;
   text-overflow: ellipsis;
   white-space: nowrap; }
 
