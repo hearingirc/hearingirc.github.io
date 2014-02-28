@@ -91,7 +91,7 @@ do_or_exit "Updating deployment branch (master) with new content...",
 
 
 # Do a quick gut-check on the repo status
-puts `git status`
+puts `git status --porcelain`
 puts "\n\n"
 
 # If you want to back out...
@@ -99,7 +99,7 @@ if !agree(colored("Last chance. Look good (Y/n)? "), true)
   say colored("Ok. Cancelling...", :info)
   do_or_exit "Cleaning up changed files...",
              "git reset --hard HEAD\
-              && git clean -f\
+              && git clean -fd\
               && git checkout development"
 
   say colored("Exiting. Please run again.", :info)
