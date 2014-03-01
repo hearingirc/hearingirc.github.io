@@ -65,10 +65,15 @@
     %script{type: "text/javascript", src: "/js/jquery.ba-hashchange-v1.3.min.js"}
     %script{type: "text/javascript",  src:"/js/rfp_manager.js"}
     %script{type: "text/javascript", src: "/js/main-r8.js"}
+
+    :if document.url === "/index.html"
+      %script{type: "text/javascript", src: "/js/mimi_form_handler.js"}
+
     :javascript
       $(window).load(function() {
         $("body").removeClass("preload");
       });
+
       $(document).ready(function () {
         $(".expand").click(function () {
           $(this).toggleClass("open");
