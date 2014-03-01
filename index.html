@@ -20,192 +20,7 @@ var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s
 })(document, 'script');
 //]]>
 </script>
-</div></div></div></div><div class="not-accepting-proposals"><div class="row"><div class="sixteen columns titleset"><h2>Request for Proposals</h2><h4>There is not a Request for Proposal open right now.</h4><p>However, you can enter your email below and we will email you when we announce the dates and availability of the next one!</p><form action="https://madmimi.com/signups/subscribe/102951" id="mad_mimi_signup_form" method="post" target="_blank">    <div class="nine columns omega">        <input id="signup_email" name="signup[email]" type="text" data-required-field="This field is required" placeholder="you@example.com"/>    </div>    <div class="seven columns omega">        <input type="submit" class="submit" value="Sign Me Up!" id="webform_submit_button" data-default-text="Subscribe" data-submitting-text="Sending…" data-invalid-text="↑ You forgot some required fields" data-choose-list="↑ Choose a list"></input>    </div></form></div></div></div></div></article><article class="dark" id="awards"><div class="container"><div class="row"><div class="sixteen columns previous-grants"><h2>Previous Awards</h2><h4>Have a look at some of the previous awards granted.</h4><p>The IRC Grant program started in 2012 and is quickly gaining momentum. Get on board by making your proposal this year.</p><div class="annual-rfp"><h3>2013</h3><dl class="dl-horizontal"><dt>Topic</dt><dd><a href="/downloads/rfp_archive/2013_perception_of_dynamic_spatial_listening_scenarios_rfp.doc">Perception of Dynamic Spatial Listening Scenarios</a></dd><dt>Recipients</dt><dd><ul class="grant-recipients list-inline"><li class="recipient">TBA</li></ul></dd></dl></div><hr /><div class="annual-rfp"><h3>2012</h3><dl class="dl-horizontal"><dt>Topic</dt><dd><a href="/downloads/rfp_archive/2012_cognition_rfp.doc">Cognition</a></dd><dt>Recipients</dt><dd><ul class="grant-recipients list-inline"><li class="recipient">Piers Dawes, Ph.D</li><li class="recipient">Andrea Pittman, Ph.D</li></ul></dd><dt>Announcement</dt><dd><a href="/news/announcing-the-first-irc-grant-recipients" class="announcement">Announcing the First IRC Grant Recipients</a></dd></dl></div></div></div></div></article>
-<script type="text/javascript">
-//<![CDATA[
-(function() {
-  var form = document.getElementById('mad_mimi_signup_form'),
-      submit = document.getElementById('webform_submit_button'),
-      validEmail = /.+@.+\..+/,
-      isValid;
-
-  form.onsubmit = function(event) {
-    validate();
-    if(!isValid) {
-      revalidateOnChange();
-      return false;
-    }
-  };
-
-  function validate() {
-    isValid = true;
-    emailValidation();
-    fieldAndListValidation();
-    updateFormAfterValidation();
-  }
-
-  function emailValidation() {
-    var email = document.getElementById('signup_email');
-    if(!validEmail.test(email.value)) {
-      textFieldError(email);
-      isValid = false;
-    } else {
-      removeTextFieldError(email);
-    }
-  }
-
-  function fieldAndListValidation() {
-    var fields = form.querySelectorAll('.mimi_field.required');
-    for(var i = 0; i < fields.length; ++i) {
-      var field = fields[i],
-          type  = fieldType(field);
-      if(type == 'checkboxes' || type == 'radio_buttons') {
-        checkboxAndRadioValidation(field);
-      } else {
-        textAndDropdownValidation(field, type);
-      }
-    }
-  }
-
-  function fieldType(field) {
-    var type = field.querySelectorAll('.field_type');
-    if(type.length > 0) {
-      return type[0].getAttribute('data-field-type');
-    } else if(field.className.indexOf('checkgroup') >= 0) {
-      return 'checkboxes';
-    } else {
-      return 'text_field';
-    }
-  }
-
-  function checkboxAndRadioValidation(field) {
-    var inputs   = field.getElementsByTagName('input'),
-        selected = false;
-    for(var i = 0; i < inputs.length; ++i) {
-      var input = inputs[i];
-      if((input.type == 'checkbox' || input.type == 'radio') && input.checked) selected = true;
-    }
-    if(selected) {
-      field.className = field.className.replace(/ invalid/g, '');
-    } else {
-      if(field.className.indexOf('invalid') == -1) field.className += ' invalid';
-      isValid = false;
-    }
-  }
-
-  function textAndDropdownValidation(field, type) {
-    var inputs = field.getElementsByTagName('input');
-    for(var i = 0; i < inputs.length; ++i) {
-      var input = inputs[i];
-      if(input.name.indexOf('signup') >= 0) {
-        if(type == 'text_field') {
-          textValidation(input);
-        } else {
-          dropdownValidation(field, input);
-        }
-      }
-    }
-    htmlEmbedDropdownValidation(field);
-  }
-
-  function textValidation(input) {
-    if(input.id == 'signup_email') return;
-    var val = input.value;
-    if(val == '') {
-      textFieldError(input);
-      isValid = false;
-      return;
-    } else {
-      removeTextFieldError(input)
-    }
-  }
-
-  function dropdownValidation(field, input) {
-    var val = input.value;
-    if(val == '') {
-      if(field.className.indexOf('invalid') == -1) field.className += ' invalid';
-      onSelectCallback(input);
-      isValid = false;
-      return;
-    } else {
-      field.className = field.className.replace(/ invalid/g, '');
-    }
-  }
-
-  function htmlEmbedDropdownValidation(field) {
-    var dropdowns = field.querySelectorAll('.mimi_html_dropdown');
-    for(var i = 0; i < dropdowns.length; ++i) {
-      var dropdown = dropdowns[i],
-          val      = dropdown.value;
-      if(val == '') {
-        if(field.className.indexOf('invalid') == -1) field.className += ' invalid';
-        isValid = false;
-        dropdown.onchange = validate;
-        return;
-      } else {
-        field.className = field.className.replace(/ invalid/g, '');
-      }
-    }
-  }
-
-  function textFieldError(input) {
-    input.className   = 'required invalid';
-    input.placeholder = input.getAttribute('data-required-field');
-  }
-
-  function removeTextFieldError(input) {
-    input.className   = 'required';
-    input.placeholder = '';
-  }
-
-  function onSelectCallback(input) {
-    if(typeof Widget != 'undefined' && Widget.BasicDropdown != undefined) {
-      var dropdownEl = input.parentNode,
-          instances  = Widget.BasicDropdown.instances;
-      for(var i = 0; i < instances.length; ++i) {
-        var instance = instances[i];
-        if(instance.wrapperEl == dropdownEl) {
-          instance.onSelect = validate;
-        }
-      }
-    }
-  }
-
-  function updateFormAfterValidation() {
-    form.className   = isValid ? '' : 'mimi_invalid';
-    submit.value     = submitButtonText();
-    submit.disabled  = !isValid;
-    submit.className = isValid ? 'submit' : 'disabled';
-  }
-
-  function submitButtonText() {
-    var invalidFields = document.querySelectorAll('.invalid'),
-        text;
-    if(isValid || invalidFields == undefined) {
-      text = submit.getAttribute('data-default-text');
-    } else {
-      if(invalidFields.length > 1 || invalidFields[0].className.indexOf('checkgroup') == -1) {
-        text = submit.getAttribute('data-invalid-text');
-      } else {
-        text = submit.getAttribute('data-choose-list');
-      }
-    }
-    return text;
-  }
-
-  function revalidateOnChange() {
-    var fields = form.querySelectorAll(".mimi_field.required");
-    for(var i = 0; i < fields.length; ++i) {
-      var inputs = fields[i].getElementsByTagName('input');
-      for(var j = 0; j < inputs.length; ++j) {
-        inputs[j].onchange = validate;
-      }
-    }
-  }
-})();
-//]]>
-</script>
-<article id="footer"><div class="container"><div class="two-thirds column"><p>Copyright &copy;
+</div></div></div></div><div class="not-accepting-proposals"><div class="row"><div class="sixteen columns titleset"><h2>Request for Proposals</h2><h4>There is not a Request for Proposal open right now.</h4><p>However, you can enter your email below and we will email you when we announce the dates and availability of the next one!</p><form action="https://madmimi.com/signups/subscribe/102951" id="mad_mimi_signup_form" method="post" target="_blank">    <div class="nine columns omega">        <input id="signup_email" name="signup[email]" type="text" data-required-field="This field is required" placeholder="you@example.com"/>    </div>    <div class="seven columns omega">        <input type="submit" class="submit" value="Sign Me Up!" id="webform_submit_button" data-default-text="Subscribe" data-submitting-text="Sending…" data-invalid-text="↑ You forgot some required fields" data-choose-list="↑ Choose a list"></input>    </div></form></div></div></div></div></article><article class="dark" id="awards"><div class="container"><div class="row"><div class="sixteen columns previous-grants"><h2>Previous Awards</h2><h4>Have a look at some of the previous awards granted.</h4><p>The IRC Grant program started in 2012 and is quickly gaining momentum. Get on board by making your proposal this year.</p><div class="annual-rfp"><h3>2013</h3><dl class="dl-horizontal"><dt>Topic</dt><dd><a href="/downloads/rfp_archive/2013_perception_of_dynamic_spatial_listening_scenarios_rfp.doc">Perception of Dynamic Spatial Listening Scenarios</a></dd><dt>Recipients</dt><dd><ul class="grant-recipients list-inline"><li class="recipient">TBA</li></ul></dd></dl></div><hr /><div class="annual-rfp"><h3>2012</h3><dl class="dl-horizontal"><dt>Topic</dt><dd><a href="/downloads/rfp_archive/2012_cognition_rfp.doc">Cognition</a></dd><dt>Recipients</dt><dd><ul class="grant-recipients list-inline"><li class="recipient">Piers Dawes, Ph.D</li><li class="recipient">Andrea Pittman, Ph.D</li></ul></dd><dt>Announcement</dt><dd><a href="/news/announcing-the-first-irc-grant-recipients" class="announcement">Announcing the First IRC Grant Recipients</a></dd></dl></div></div></div></div></article><article id="footer"><div class="container"><div class="two-thirds column"><p>Copyright &copy;
 <script type="text/javascript">
 //<![CDATA[
 <!--
@@ -216,12 +31,13 @@ var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s
    //-->
 //]]>
 </script>
-&nbsp;Hearing IRC, All Rights Reserved.</p></div><div class="one-third column"><a href="mailto:contact@hearingirc.com">contact@hearingirc.com</a></div></div></article></div><script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><script type="text/javascript" src="/js/jquery.flexslider-v1.8.min.js"></script><script type="text/javascript" src="/js/jquery.ba-hashchange-v1.3.min.js"></script><script type="text/javascript" src="/js/rfp_manager.js"></script><script type="text/javascript" src="/js/main-r8.js"></script>
+&nbsp;Hearing IRC, All Rights Reserved.</p></div><div class="one-third column"><a href="mailto:contact@hearingirc.com">contact@hearingirc.com</a></div></div></article></div><script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><script type="text/javascript" src="/js/jquery.flexslider-v1.8.min.js"></script><script type="text/javascript" src="/js/jquery.ba-hashchange-v1.3.min.js"></script><script type="text/javascript" src="/js/rfp_manager.js"></script><script type="text/javascript" src="/js/main-r8.js"></script><script type="text/javascript" src="/js/mimi_form_handler.js"></script>
 <script type="text/javascript">
 //<![CDATA[
 $(window).load(function() {
   $("body").removeClass("preload");
 });
+
 $(document).ready(function () {
   $(".expand").click(function () {
     $(this).toggleClass("open");
