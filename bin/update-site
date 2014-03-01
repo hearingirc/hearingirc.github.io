@@ -86,8 +86,11 @@ do_or_exit "Cleaning up previous build of site...",
 do_or_exit "Generating new version of site...",
            "docpad generate -e production > /dev/null 2>&1"
 
-do_or_exit "Removing unused css rules...",
+do_or_exit "Removing unused CSS rules...",
            "grunt uncss > /dev/null 2>&1"
+
+do_or_exit "Minimizing CSS files...",
+           "grunt cssmin > /dev/null 2>&1"
 
 do_or_exit "Updating deployment branch (master) with new content...",
            "git checkout master > /dev/null 2>&1 && cp -r out/* ./"
