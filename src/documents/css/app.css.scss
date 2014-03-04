@@ -37,7 +37,7 @@
     font-weight: normal;
     font-family: 'Open Sans', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-align: center;
-    font-size: 44px; 
+    font-size: 44px;
   }
   &.one {
     &:before {
@@ -121,7 +121,7 @@ dd {
 
 .dl-horizontal dt {
   float: left;
-  width: 120px;
+  width: 140px;
   overflow: hidden;
   clear: left;
   text-align: left;
@@ -130,7 +130,7 @@ dd {
 }
 
 .dl-horizontal dd {
-  margin-left: 130px;
+  margin-left: 150px;
 }
 
 .dl-horizontal dd:before, .dl-horizontal dd:after {
