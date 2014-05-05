@@ -1,8 +1,8 @@
 function RFPManager() {
   var availabilityWindows = {
     "2014": {
-      "opens": "2013-07-01T00:00:00.000Z",
-      "closes": "2013-10-01T00:00:00.000Z"
+      "opens": "2014-05-05T00:00:00.000Z",
+      "closes": "2014-08-16T00:00:00.000Z"
     }
   };
 
