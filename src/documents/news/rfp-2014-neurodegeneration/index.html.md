@@ -18,10 +18,3 @@ around the world.
 Applications are available on the [IRC website](http://www.hearingirc.com). The
 deadline for proposals is August 15, 2014, and decisions will be announced by
 December 31, 2014.
-
-
-Press contact:<br>
-Erika Weigmann<br>
-Siemens Audiology, Media Relations<br>
-Tel.: + 49 9131-3449<br>
-E-Mail: erika.weigmann@siemens.com<br>
