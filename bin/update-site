@@ -114,7 +114,7 @@ end
 
 #...let's do it
 do_or_exit "Preparing commit...",
-           "git add . \
+           "git add -A \
             && git commit -m '#{commit_message(repo)}'\
             && git checkout development > /dev/null 2>&1"
 
