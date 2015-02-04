@@ -1,0 +1,52 @@
+/usr/local/Cellar/ruby/2.1.5/bin/ruby -r ./siteconf20150204-4251-1trxnkh.rb extconf.rb 
+checking for gmake... no
+checking for make... yes
+ -- /usr/bin/make -f Makefile.embed
+checking for main() in -lgit2_embed... yes
+checking for git2.h... yes
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling rugged.c
+compiling rugged_blob.c
+compiling rugged_branch.c
+compiling rugged_commit.c
+compiling rugged_config.c
+compiling rugged_diff.c
+rugged_diff.c:432:16: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+        delta_count = git_diff_num_deltas(diff);
+                    ~ ^~~~~~~~~~~~~~~~~~~~~~~~~
+rugged_diff.c:468:16: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+        delta_count = git_diff_num_deltas(diff);
+                    ~ ^~~~~~~~~~~~~~~~~~~~~~~~~
+2 warnings generated.
+compiling rugged_diff_delta.c
+compiling rugged_diff_hunk.c
+compiling rugged_diff_line.c
+compiling rugged_diff_patch.c
+rugged_diff_patch.c:66:16: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+        hooks_count = git_diff_patch_num_hunks(patch);
+                    ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+compiling rugged_index.c
+compiling rugged_note.c
+compiling rugged_object.c
+compiling rugged_reference.c
+compiling rugged_remote.c
+compiling rugged_repo.c
+rugged_repo.c:315:9: warning: implicit conversion loses integer precision: 'VALUE' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+        return rb_rescue(clone_fetch_callback_inner, (VALUE) fetch_payload,
+        ~~~~~~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+compiling rugged_revwalk.c
+compiling rugged_settings.c
+compiling rugged_signature.c
+compiling rugged_tag.c
+compiling rugged_tree.c
+linking shared-object rugged/rugged.bundle
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 rugged.bundle ./.gem.20150204-4251-yzb7yc/rugged
+installing default rugged libraries
