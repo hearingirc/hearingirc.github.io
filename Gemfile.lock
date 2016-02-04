@@ -8,5 +8,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  highline
-  rugged
+  highline (= 1.6.20)
+  rugged (= 0.19.0)
+
+BUNDLED WITH
+   1.10.6

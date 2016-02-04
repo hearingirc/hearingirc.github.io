@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
-gem 'highline'
-gem 'rugged'
+gem 'highline', '=1.6.20'
+gem 'rugged', '0.19.0'
