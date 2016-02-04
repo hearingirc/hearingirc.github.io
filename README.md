@@ -60,7 +60,7 @@ Here's what you need to do to deploy:
 1. Execute `bundle install`
    - This will install the Ruby library dependencies for making the output easier to read and interfacing
      with git (only required the first time, or after Ruby dependency updates [should be rare])
-1. Execute `./bin/update_site`
+1. Execute `bundle exec ./bin/update_site`
    - The site is generated and you are prompted for confirmations and a commit message.
    - Note, you must have all changes committed before you can deploy.
 1. Verify status of `master` branch
