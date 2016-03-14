@@ -1,13 +1,41 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title><![CDATA[Untitled RSS Feed]]></title>
         <description><![CDATA[Untitled RSS Feed]]></description>
         <link>http://hearingirc.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 04 Feb 2016 14:57:44 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 14 Mar 2016 16:40:16 GMT</lastBuildDate>
         <atom:link href="http://hearingirc.com/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 04 Feb 2016 14:57:40 GMT</pubDate>
+        <pubDate>Mon, 14 Mar 2016 16:40:04 GMT</pubDate>
+        <item>
+            <title><![CDATA[Announcing the 2015 Grant Recipients]]></title>
+            <description><![CDATA[<p>By the deadline of August 2015 IRC had received 6 outstanding grant proposals
+from leading universities around the world in response to the most recent RFP,
+which focuses on Big Data Outcome Measurement and Treatment.</p>
+
+<p>IRC is very pleased to announce that the 2015 Grant recipients are the teams
+lead by Principal Investigators Dr Peter Nordquist, Research Institute
+Hörselbron, KTH Stockholm, Sweden as well as the team lead by Dr Harvey Dillon,
+National Acoustic Laboratories, Sydney, Australia. Each team received an award
+of 150’000 USD to pursue their research.</p>
+
+<p>Both projects look at how coordinated data collection in audiological service
+delivery systems can be exploited to examine relations between patient
+characteristics, treatment outcomes, and process variables. This may provide
+new evidence for the development of improved treatment. Meanwhile, the
+diversity of real-life clinical practice may cause any data to be very ‘noisy’,
+potentially invalidating conclusions regarding cause and effect.</p>
+
+<p>“Once again we are very pleased to have received so many excellent proposals
+from universities all around the world. We know it takes a big effort to
+prepare such applications, and we want to express our thankfulness to all
+applicants for their contribution,” said Stefan Launer, 2016-2017 Chair of the
+IRC.</p>
+]]></description>
+            <link>http://hearingirc.com/news/announcing-the-2015-irc-grant-recipients</link>
+            <guid isPermaLink="true">http://hearingirc.com/news/announcing-the-2015-irc-grant-recipients</guid>
+            <pubDate>Mon, 14 Mar 2016 08:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Announcing the 2015 RFP: Outcome Measurement and Treatment Prescription]]></title>
             <description><![CDATA[<p>Since 2012 the hearing industry’s largest manufacturers have collaborated to
@@ -89,7 +117,7 @@ IRC.</p>
 ]]></description>
             <link>http://hearingirc.com/news/announcing-the-2014-irc-grant-recipients</link>
             <guid isPermaLink="true">http://hearingirc.com/news/announcing-the-2014-irc-grant-recipients</guid>
-            <pubDate>Thu, 05 Feb 2015 14:00:00 GMT</pubDate>
+            <pubDate>Thu, 05 Feb 2015 08:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Announcing the 2014 RFP: Neurodegeneration]]></title>
@@ -154,7 +182,7 @@ field.&rdquo;</p>
 ]]></description>
             <link>http://hearingirc.com/news/announcing-the-2013-irc-grant-recipients</link>
             <guid isPermaLink="true">http://hearingirc.com/news/announcing-the-2013-irc-grant-recipients</guid>
-            <pubDate>Tue, 03 Dec 2013 20:07:00 GMT</pubDate>
+            <pubDate>Tue, 03 Dec 2013 14:07:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[RFP 2013 Perception of dynamic spatial listening scenarios]]></title>
@@ -275,7 +303,7 @@ Hearing Industry Research Consortium, visit <a href="http://www.hearingirc.com">
 ]]></description>
             <link>http://hearingirc.com/news/worldwide-hearing-industry-research-consortium-announced</link>
             <guid isPermaLink="true">http://hearingirc.com/news/worldwide-hearing-industry-research-consortium-announced</guid>
-            <pubDate>Tue, 04 Sep 2012 17:00:00 GMT</pubDate>
+            <pubDate>Tue, 04 Sep 2012 12:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Industry Research Consortium has a new website]]></title>
