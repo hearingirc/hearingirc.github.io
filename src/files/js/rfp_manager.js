@@ -17,7 +17,8 @@ function RFPManager() {
   this.isAcceptingProposals = function() {
     var now = new Date();
     var annualDates = availabilityWindows[now.getFullYear()];
-    return Date.parse(annualDates.opens) <= now &&
+    return annualDates &&
+           Date.parse(annualDates.opens) <= now &&
            Date.parse(annualDates.closes) >= now;
   };
 }
