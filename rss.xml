@@ -4,9 +4,35 @@
         <description><![CDATA[Untitled RSS Feed]]></description>
         <link>http://hearingirc.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 19 Sep 2016 15:40:16 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 14 Feb 2017 22:05:44 GMT</lastBuildDate>
         <atom:link href="http://hearingirc.com/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 19 Sep 2016 15:40:07 GMT</pubDate>
+        <pubDate>Tue, 14 Feb 2017 22:05:34 GMT</pubDate>
+        <item>
+            <title><![CDATA[Announcing the 2016 Grant Recipients]]></title>
+            <description><![CDATA[<p>By the deadline of August 2016 IRC had received a large number of outstanding
+grant proposals from leading universities around the world in response to this
+year’s request for proposals on auditory ecology and its contribution to quality
+of life, with emphasis on the individual.</p>
+<p>IRC is very pleased to announce that the 2016 grant recipient is the team lead
+by Principal Investigator Dr Inga Holube, Institute of Hearing Technology and
+Audiology, Jade University of Applied Sciences in Oldenburg in cooperation with
+Dr. Markus Meis from Hörzentrum Oldenburg, Germany.</p>
+<p>The project explores the individual hearing aid benefit in real life by
+developing tools that momentarily assess the health-related quality of life in
+individual every-day listening situations. The concept uniquely combines the
+analysis of the acoustical conditions, self-assessments and external
+observations that allow characterizing psychologically and sociologically the
+behavior of hearing-impaired persons in self-selected environments.</p>
+<p>“Once again we are very pleased to have received so many excellent proposals
+from universities all around the world. We know it takes a big effort to prepare
+such applications, and we want to express our sincere appreciation s to all
+applicants for their contribution,” said Stefan Launer, 2016-2017 Chair of the
+IRC.</p>
+]]></description>
+            <link>http://hearingirc.com/news/announcing-the-2016-irc-grant-recipients</link>
+            <guid isPermaLink="true">http://hearingirc.com/news/announcing-the-2016-irc-grant-recipients</guid>
+            <pubDate>Tue, 14 Feb 2017 08:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Announcing the 2016 RFP: Auditory Ecology and its contribution to Quality of Life, with Emphasis on the Individual]]></title>
             <description><![CDATA[<p>Since 2012 the hearing industry’s largest manufacturers have collaborated to
@@ -290,14 +316,6 @@ Hearing Industry Research Consortium, visit www.hearingirc.com.</p>
             <link>http://hearingirc.com/news/worldwide-hearing-industry-research-consortium-announced</link>
             <guid isPermaLink="true">http://hearingirc.com/news/worldwide-hearing-industry-research-consortium-announced</guid>
             <pubDate>Tue, 04 Sep 2012 12:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Industry Research Consortium has a new website]]></title>
-            <description><![CDATA[<p>The hearing industry research consortium has a new website to support industry-wide research initiatives.</p>
-]]></description>
-            <link>http://hearingirc.com/news/industry-research-consortium-has-a-new-website</link>
-            <guid isPermaLink="true">http://hearingirc.com/news/industry-research-consortium-has-a-new-website</guid>
-            <pubDate>Wed, 11 Jul 2012 17:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
