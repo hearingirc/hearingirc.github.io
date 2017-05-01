@@ -4,9 +4,33 @@
         <description><![CDATA[Untitled RSS Feed]]></description>
         <link>http://hearingirc.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 14 Feb 2017 22:37:27 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 01 May 2017 19:40:52 GMT</lastBuildDate>
         <atom:link href="http://hearingirc.com/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 14 Feb 2017 22:37:16 GMT</pubDate>
+        <pubDate>Mon, 01 May 2017 19:40:49 GMT</pubDate>
+        <item>
+            <title><![CDATA[Announcing the 2017 RFP: "The impact of audiovisual integration on acoustic communication in hearing impaired adults"]]></title>
+            <description><![CDATA[<p>Since 2010 the hearing industry’s largest manufacturers have collaborated to
+sponsor a non-competitive, mutually agreed upon research agenda benefiting the
+hearing aid industry, its customers, and end users. The framework for this
+collaboration is the <a href="http://hearingirc.com/">Hearing Industry Research Consortium (IRC)</a>.</p>
+<p>This year&#39;s <a href="http://rfp.hearingirc.com">Request for Proposal (RfP)</a> is entitled
+&quot;The impact of audiovisual integration on acoustic communication in hearing
+impaired adults&quot;. Hearing IRC wishes to support pre-competitive research that
+advances understanding of the effects of both hearing aid processing and
+individual audiovisual integration abilities on hearing aid benefit in real-life
+speech communication. For many years, research on the effects of hearing-aid
+use has mainly considered factors related to auditory perception. Real-life
+communication, however, does not occur solely in the auditory domain, but
+instead triggers simultaneous activation of different modalities, requiring
+cross-modal integration.</p>
+<p>Applications are available on the <a href="http://hearingirc.com/">Hearing IRC web site</a>.
+The deadline for proposals is August 18th, 2017, and decisions will be announced
+by December 31, 2017.</p>
+]]></description>
+            <link>http://hearingirc.com/news/rfp-2017-audiovisual-integration</link>
+            <guid isPermaLink="true">http://hearingirc.com/news/rfp-2017-audiovisual-integration</guid>
+            <pubDate>Mon, 01 May 2017 10:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Announcing the 2016 Grant Recipients]]></title>
             <description><![CDATA[<p>By the deadline of August 2016 IRC had received a large number of outstanding
@@ -35,7 +59,7 @@ IRC.</p>
         </item>
         <item>
             <title><![CDATA[Announcing the 2016 RFP: Auditory Ecology and its contribution to Quality of Life, with Emphasis on the Individual]]></title>
-            <description><![CDATA[<p>Since 2012 the hearing industry’s largest manufacturers have collaborated to
+            <description><![CDATA[<p>Since 2010 the hearing industry’s largest manufacturers have collaborated to
 sponsor a non-competitive, mutually agreed upon research agenda benefitting the
 hearing aid industry, its customers, and end users. The framework for this
 collaboration is the <a href="http://hearingirc.com">Hearing Industry Research Consortium (IRC)</a>.</p>
@@ -53,7 +77,7 @@ deadline for proposals is August 21, 2016, and decisions will be announced by De
 ]]></description>
             <link>http://hearingirc.com/news/rfp-2016-auditory-ecology</link>
             <guid isPermaLink="true">http://hearingirc.com/news/rfp-2016-auditory-ecology</guid>
-            <pubDate>Mon, 13 Jun 2016 17:00:00 GMT</pubDate>
+            <pubDate>Mon, 13 Jun 2016 10:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Announcing the 2015 Grant Recipients]]></title>
@@ -83,7 +107,7 @@ IRC.</p>
         </item>
         <item>
             <title><![CDATA[Announcing the 2015 RFP: Outcome Measurement and Treatment Prescription]]></title>
-            <description><![CDATA[<p>Since 2012 the hearing industry’s largest manufacturers have collaborated to
+            <description><![CDATA[<p>Since 2010 the hearing industry’s largest manufacturers have collaborated to
 sponsor a non-competitive, mutually agreed upon research agenda benefitting the
 hearing aid industry, its customers, and end users. The framework for this
 collaboration is the <a href="http://hearingirc.com">Hearing Industry Research Consortium (IRC)</a>.</p>
@@ -103,7 +127,7 @@ December 31, 2015.</p>
 ]]></description>
             <link>http://hearingirc.com/news/rfp-2015-outcome-measurement-and-treatment-prescription</link>
             <guid isPermaLink="true">http://hearingirc.com/news/rfp-2015-outcome-measurement-and-treatment-prescription</guid>
-            <pubDate>Fri, 01 May 2015 17:00:00 GMT</pubDate>
+            <pubDate>Fri, 01 May 2015 10:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Announcing the 2014 Grant Recipients]]></title>
@@ -170,7 +194,7 @@ December 31, 2014.</p>
 ]]></description>
             <link>http://hearingirc.com/news/rfp-2014-neurodegeneration</link>
             <guid isPermaLink="true">http://hearingirc.com/news/rfp-2014-neurodegeneration</guid>
-            <pubDate>Thu, 29 May 2014 17:00:00 GMT</pubDate>
+            <pubDate>Thu, 29 May 2014 10:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Announcing the 2013 Grant Recipients]]></title>
@@ -242,7 +266,7 @@ Phonak AG</p>
 ]]></description>
             <link>http://hearingirc.com/news/rfp-2013-perception-of-dynamic-spatial-listening-scenarios</link>
             <guid isPermaLink="true">http://hearingirc.com/news/rfp-2013-perception-of-dynamic-spatial-listening-scenarios</guid>
-            <pubDate>Mon, 10 Jun 2013 17:00:00 GMT</pubDate>
+            <pubDate>Mon, 10 Jun 2013 10:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Announcing the First IRC Grant Recipients]]></title>
@@ -284,38 +308,7 @@ coming summer.</p>
 ]]></description>
             <link>http://hearingirc.com/news/announcing-the-first-irc-grant-recipients</link>
             <guid isPermaLink="true">http://hearingirc.com/news/announcing-the-first-irc-grant-recipients</guid>
-            <pubDate>Fri, 17 May 2013 17:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Worldwide Hearing Industry Research Consortium Announced]]></title>
-            <description><![CDATA[<p>$300,000 Grant to be Awarded to Winning Proposal on Interaction of Cognition
-and Hearing Aids</p>
-<p>The hearing industry’s largest manufacturers have collaborated to create the
-Hearing Industry Research Consortium (IRC) to develop and direct a
-non-competitive, mutually agreed upon research agenda benefitting the hearing
-aid industry, its customers and end users.</p>
-<p>As its first act, the IRC is requesting proposals for a research project on the
-interaction of cognition and hearing aids. The $300,000 grant was announced at
-the International Hearing Aid Research Conference in Lake Tahoe, Calif., and is
-open to research labs around the world.</p>
-<p>The IRC board is comprised of the heads of research from the top hearing aid
-manufacturers in the world including GN ReSound’s Andrew Dittberner; Oticon’s
-Graham Naylor; Phonak’s Stefan Launer; Siemens’ Joel Beilin; Starkey Hearing
-Technologies’ Brent Edwards; and Widex’ Lars Sunesen.</p>
-<p>Applications are available on the IRC web site at www.hearingirc.com . The
-deadline for proposals is November 1, 2012, and decisions will be announced by
-December 31, 2012.</p>
-<p>About the Hearing Industry Research Consortium The Hearing Industry Research
-Consortium (IRC) is made up of the heads of research from the top hearing aid
-manufactures in the world, which include GN ReSound, Oticon, Phonak, Siemens,
-Starkey Hearing Technologies and Widex. The IRC was created to have a
-non-competitive, mutually agreed upon research agenda benefitting the hearing
-aid industry, its customers and end users. For more information about the
-Hearing Industry Research Consortium, visit www.hearingirc.com.</p>
-]]></description>
-            <link>http://hearingirc.com/news/worldwide-hearing-industry-research-consortium-announced</link>
-            <guid isPermaLink="true">http://hearingirc.com/news/worldwide-hearing-industry-research-consortium-announced</guid>
-            <pubDate>Tue, 04 Sep 2012 12:00:00 GMT</pubDate>
+            <pubDate>Fri, 17 May 2013 10:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

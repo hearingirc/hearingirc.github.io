@@ -18,9 +18,15 @@ $(window).load(function() {
 });
 
 $(document).ready(function () {
-  $(".expand").click(function () {
+  $(".expand").click(function (evt) {
+    evt.preventDefault();
     $(this).toggleClass("open");
     $(".wufoo").toggleClass("closed");
+  });
+
+  $(".process").click(function (evt) {
+    evt.preventDefault();
+    $(".process-details").slideToggle();
   });
 
   function sectionToHide(whenAvail, whenNot) {
