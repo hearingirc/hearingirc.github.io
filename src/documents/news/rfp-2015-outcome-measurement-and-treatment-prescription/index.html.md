@@ -2,12 +2,12 @@
 date: "2015-05-01 12:00:00"
 url: "/news/rfp-2015-outcome-measurement-and-treatment-prescription"
 title: "Announcing the 2015 RFP: Outcome Measurement and Treatment Prescription"
-summary: 'Since 2012 the hearing industry’s largest manufacturers have collaborated to sponsor a non-competitive, mutually agreed upon research agenda benefitting the hearing aid industry, its customers, and end users. The framework for this collaboration is the Hearing Industry Research Consortium (IRC).'
+summary: 'Since 2010 the hearing industry’s largest manufacturers have collaborated to sponsor a non-competitive, mutually agreed upon research agenda benefitting the hearing aid industry, its customers, and end users. The framework for this collaboration is the Hearing Industry Research Consortium (IRC).'
 isPage: true
 layout: news
 ---
 
-Since 2012 the hearing industry’s largest manufacturers have collaborated to
+Since 2010 the hearing industry’s largest manufacturers have collaborated to
 sponsor a non-competitive, mutually agreed upon research agenda benefitting the
 hearing aid industry, its customers, and end users. The framework for this
 collaboration is the [Hearing Industry Research Consortium (IRC)](http://hearingirc.com).

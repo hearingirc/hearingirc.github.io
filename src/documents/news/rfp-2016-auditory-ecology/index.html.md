@@ -8,7 +8,7 @@ layout: news
 ---
 
 
-Since 2012 the hearing industry’s largest manufacturers have collaborated to
+Since 2010 the hearing industry’s largest manufacturers have collaborated to
 sponsor a non-competitive, mutually agreed upon research agenda benefitting the
 hearing aid industry, its customers, and end users. The framework for this
 collaboration is the [Hearing Industry Research Consortium (IRC)](http://hearingirc.com).
