@@ -66,6 +66,8 @@
     %script{type: "text/javascript",  src:"/js/rfp_manager.js"}
     %script{type: "text/javascript", src: "/js/main-r8.js"}
 
+    != getBlock('scripts').toHTML()
+
     :if document.url === "/index.html"
       %script{type: "text/javascript", src: "/js/mimi_form_handler.js"}
 

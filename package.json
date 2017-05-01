@@ -8,13 +8,14 @@
     "npm": "2.11.2"
   },
   "dependencies": {
-    "docpad-plugin-haml": "~2.0.2",
-    "docpad-plugin-livereload": "~2.6.0",
-    "docpad-plugin-marked": "~2.3.0",
+    "docpad": "~6.79.4",
+    "docpad-plugin-haml": "~2.1.0",
+    "docpad-plugin-livereload": "~2.9.0",
+    "docpad-plugin-marked": "~2.4.0",
     "docpad-plugin-moment": "~2.0.2",
     "docpad-plugin-nodesass": "~2.8.2",
     "docpad-plugin-rss": "~2.3.1",
-    "docpad-plugin-sitemap": "~2.2.0",
+    "docpad-plugin-sitemap": "~2.4.0",
     "lazy-require": "^2.2.0",
     "node-sass": "^3.7.0"
   },
