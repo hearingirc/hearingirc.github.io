@@ -25,7 +25,7 @@
   "devDependencies": {
     "docpad": "~6.78.4",
     "grunt": "^1.0.1",
-    "grunt-contrib-cssmin": "^2.1.0",
-    "node-sass": "^4.5.2"
+    "grunt-contrib-cssmin": "^2.2.1",
+    "node-sass": "^4.7.2"
   }
 }
