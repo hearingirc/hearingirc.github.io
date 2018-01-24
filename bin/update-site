@@ -62,7 +62,7 @@ module RepoExtentions
   end
 
   def uncommitted_changes?
-    !diff_workdir(tip_commit_id).deltas.empty?
+    index.diff.count != 0
   end
 end
 
