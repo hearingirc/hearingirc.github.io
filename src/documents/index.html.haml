@@ -161,15 +161,12 @@ priority: 0.8
           %p
             However, you can enter your email below and we will email you when we announce the dates and availability of the next one!
 
-          :mardown
-            <form action="https://madmimi.com/signups/subscribe/102951" id="mad_mimi_signup_form" method="post" target="_blank">
-              <div class="nine columns omega">
-                <input id="signup_email" name="signup[email]" type="text" data-required-field="This field is required" placeholder="you@example.com"/>
-              </div>
-              <div class="seven columns omega">
-                <input type="submit" class="submit" value="Sign Me Up!" id="webform_submit_button" data-default-text="Subscribe" data-submitting-text="Sending…" data-invalid-text="↑ You forgot some required fields" data-choose-list="↑ Choose a list"></input>
-              </div>
-            </form>
+          %form(action="https://madmimi.com/signups/subscribe/102951" id="mad_mimi_signup_form" method="post" target="_blank")
+            .nine.columns.omega
+              %input(id="signup_email" name="signup[email]" type="text" data-required-field="This field is required" placeholder="you@example.com")
+
+            .seven.columns.omega
+              %input(type="submit" class="submit" value="Sign Me Up!" id="webform_submit_button" data-default-text="Subscribe" data-submitting-text="Sending…" data-invalid-text="↑ You forgot some required fields" data-choose-list="↑ Choose a list")
 
           %p
             If you'd like to see this year's Request for Proposal, you can download it&nbsp;
