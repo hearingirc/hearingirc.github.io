@@ -21,7 +21,7 @@ the International Hearing Aid Research Conference in Lake Tahoe, Calif., and is
 open to research labs around the world.
 
 The IRC board is comprised of the heads of research from the top hearing aid
-manufacturers in the world including GN ReSound’s Andrew Dittberner; Oticon’s
+manufacturers in the world including GN’s Andrew Dittberner; Oticon’s
 Graham Naylor; Phonak’s Stefan Launer; Siemens’ Joel Beilin; Starkey Hearing
 Technologies’ Brent Edwards; and Widex’ Lars Sunesen.
 
@@ -31,7 +31,7 @@ December 31, 2012.
 
 About the Hearing Industry Research Consortium The Hearing Industry Research
 Consortium (IRC) is made up of the heads of research from the top hearing aid
-manufactures in the world, which include GN ReSound, Oticon, Phonak, Siemens,
+manufactures in the world, which include GN, Oticon, Phonak, Siemens,
 Starkey Hearing Technologies and Widex. The IRC was created to have a
 non-competitive, mutually agreed upon research agenda benefitting the hearing
 aid industry, its customers and end users. For more information about the

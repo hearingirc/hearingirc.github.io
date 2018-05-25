@@ -35,9 +35,9 @@ Questions can be sent to any of the IRC members listed on the website or using
 the Contact Form on the website.
 
 The Hearing Industry Research Consortium (IRC) is made up of the heads of
-research from the top hearing aid manufacturers in the world, which include GN
-ReSound, Oticon, Phonak, Sivantos, Starkey Hearing Technologies and Widex. The
-IRC was created to have a non-competitive, mutually agreed upon research agenda
+research from the top hearing aid manufacturers in the world, which include GN,
+Oticon, Phonak, Sivantos, Starkey Hearing Technologies and Widex. The IRC was
+created to have a non-competitive, mutually agreed upon research agenda
 benefiting the hearing aid industry, its customers and end users. For more
 information about the Hearing Industry Research Consortium, visit
 [www.hearingirc.com](http://www.hearingirc.com).
