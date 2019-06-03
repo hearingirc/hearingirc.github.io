@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url> <loc>http://hearingirc.com/news/industry-research-consortium-has-a-new-website</loc> <lastmod>2018-05-25</lastmod> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>http://hearingirc.com/news/worldwide-hearing-industry-research-consortium-announced</loc> <lastmod>2018-05-25</lastmod> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>http://hearingirc.com/news/announcing-the-first-irc-grant-recipients</loc> <lastmod>2018-05-25</lastmod> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>http://hearingirc.com/news/rfp-2013-perception-of-dynamic-spatial-listening-scenarios</loc> <lastmod>2018-05-25</lastmod> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>http://hearingirc.com/news/announcing-the-2013-irc-grant-recipients</loc> <lastmod>2018-05-25</lastmod> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>http://hearingirc.com/news/rfp-2014-neurodegeneration</loc> <lastmod>2018-05-25</lastmod> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>http://hearingirc.com/news/announcing-the-2014-irc-grant-recipients</loc> <lastmod>2018-05-25</lastmod> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>http://hearingirc.com/news/rfp-2015-outcome-measurement-and-treatment-prescription</loc> <lastmod>2018-05-25</lastmod> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>http://hearingirc.com/news/announcing-the-2015-irc-grant-recipients</loc> <lastmod>2018-05-25</lastmod> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>http://hearingirc.com/news/rfp-2016-auditory-ecology</loc> <lastmod>2018-05-25</lastmod> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>http://hearingirc.com/news/announcing-the-2016-irc-grant-recipients</loc> <lastmod>2018-05-25</lastmod> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>http://hearingirc.com/news/rfp-2017-audiovisual-integration</loc> <lastmod>2018-05-25</lastmod> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>http://hearingirc.com/news/announcing-the-2017-irc-grant-recipients</loc> <lastmod>2018-05-25</lastmod> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>http://hearingirc.com/news/rfp-2018-stigma-related-factors</loc> <lastmod>2018-05-25</lastmod> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>http://hearingirc.com/404.html</loc> <lastmod>2018-05-25</lastmod> <changefreq>weekly</changefreq> <priority>0.0</priority> </url>
-<url> <loc>http://hearingirc.com/confirm/</loc> <lastmod>2018-05-25</lastmod> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>http://hearingirc.com/email-activation-confirmation/</loc> <lastmod>2018-05-25</lastmod> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>http://hearingirc.com/news/</loc> <lastmod>2018-05-25</lastmod> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>http://hearingirc.com/notification-signup-confirmation/</loc> <lastmod>2018-05-25</lastmod> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>http://hearingirc.com/</loc> <lastmod>2018-06-14</lastmod> <changefreq>weekly</changefreq> <priority>0.8</priority> </url>
+<url> <loc>http://hearingirc.com/news/industry-research-consortium-has-a-new-website</loc> <lastmod>2019-06-03</lastmod> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://hearingirc.com/news/worldwide-hearing-industry-research-consortium-announced</loc> <lastmod>2019-06-03</lastmod> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://hearingirc.com/news/announcing-the-first-irc-grant-recipients</loc> <lastmod>2019-06-03</lastmod> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://hearingirc.com/news/rfp-2013-perception-of-dynamic-spatial-listening-scenarios</loc> <lastmod>2019-06-03</lastmod> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://hearingirc.com/news/announcing-the-2013-irc-grant-recipients</loc> <lastmod>2019-06-03</lastmod> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://hearingirc.com/news/rfp-2014-neurodegeneration</loc> <lastmod>2019-06-03</lastmod> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://hearingirc.com/news/announcing-the-2014-irc-grant-recipients</loc> <lastmod>2019-06-03</lastmod> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://hearingirc.com/news/rfp-2015-outcome-measurement-and-treatment-prescription</loc> <lastmod>2019-06-03</lastmod> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://hearingirc.com/news/announcing-the-2015-irc-grant-recipients</loc> <lastmod>2019-06-03</lastmod> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://hearingirc.com/news/rfp-2016-auditory-ecology</loc> <lastmod>2019-06-03</lastmod> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://hearingirc.com/news/announcing-the-2016-irc-grant-recipients</loc> <lastmod>2019-06-03</lastmod> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://hearingirc.com/news/rfp-2017-audiovisual-integration</loc> <lastmod>2019-06-03</lastmod> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://hearingirc.com/news/announcing-the-2017-irc-grant-recipients</loc> <lastmod>2019-06-03</lastmod> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://hearingirc.com/news/rfp-2018-stigma-related-factors</loc> <lastmod>2019-06-03</lastmod> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://hearingirc.com/news/announcing-the-2018-irc-grant-recipients</loc> <lastmod>2019-06-03</lastmod> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://hearingirc.com/confirm/</loc> <lastmod>2019-06-03</lastmod> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://hearingirc.com/404.html</loc> <lastmod>2019-06-03</lastmod> <changefreq>weekly</changefreq> <priority>0.0</priority> </url>
+<url> <loc>http://hearingirc.com/email-activation-confirmation/</loc> <lastmod>2019-06-03</lastmod> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://hearingirc.com/news/</loc> <lastmod>2019-06-03</lastmod> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://hearingirc.com/notification-signup-confirmation/</loc> <lastmod>2019-06-03</lastmod> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://hearingirc.com/</loc> <lastmod>2019-06-03</lastmod> <changefreq>weekly</changefreq> <priority>0.8</priority> </url>
 </urlset>
