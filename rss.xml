@@ -4,9 +4,45 @@
         <description><![CDATA[Untitled RSS Feed]]></description>
         <link>http://hearingirc.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 03 Jun 2019 22:00:54 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 04 Jun 2019 14:25:27 GMT</lastBuildDate>
         <atom:link href="http://hearingirc.com/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 03 Jun 2019 22:00:50 GMT</pubDate>
+        <pubDate>Tue, 04 Jun 2019 14:25:20 GMT</pubDate>
+        <item>
+            <title><![CDATA[Announcing the 2019 RFP: "The joy of hearing: the impact of hearing loss and hearing aids on the affective state of the listener"]]></title>
+            <description><![CDATA[<p>The Hearing Industry Research Consortium (IRC) announces its 2019 Request for
+Proposals (RFP) for research on &quot;The joy of hearing: the impact of hearing loss
+and hearing aids on the affective state of the listener&quot;.</p>
+<p>The purpose of this RFP is to stimulate research into the positive affective
+responses to sound stimuli in hearing-impaired individuals. The goal is to
+deepen the understanding of the impact of hearing impairment and hearing-loss
+compensation on the affective state of the listener. In particular, we are
+interested in the involvement of the two reward systems mentioned above in
+hearing-impaired individuals, namely, the pleasure of hearing and the
+motivational aspects of hearing, and their impact on the quality of life of
+hearing-aid users.</p>
+<p>The funding pool for this RFP is 300,000 US Dollars, and the time period for
+execution of projects under this RFP is 2-3 years from 1st January 2020.
+Proposals for projects of two years duration are preferred. It is envisaged
+that one or two project proposals will be funded.</p>
+<p>Detailed descriptions of the application procedure, the guidelines for research
+under this scheme, and the proposed research area can be <a href="http://rfp.hearingirc.com">downloaded</a>
+and also found on the <a href="http://hearingirc.com">IRC website</a>. The deadline for
+submission is August 26, 2019.</p>
+<p>Questions can be sent to any of the IRC members listed on the website or using
+the Contact Form on the website.</p>
+<p>The Hearing Industry Research Consortium (IRC) is made up of the heads of
+research from the top hearing aid manufacturers in the world, which include GN
+Hearing, Oticon, Sonova, WS Audiology and Starkey Hearing Technologies. The IRC
+was created to have a non-competitive, mutually agreed upon research agenda
+benefiting the hearing aid industry, its customers and end users. For more
+information about the Hearing Industry Research Consortium, visit
+www.hearingirc.com.</p>
+<p>Morten Løve Jepsen, 2019-2020 Chair of the IRC</p>
+]]></description>
+            <link>http://hearingirc.com/news/rfp-2019-hearing-loss-impact-affective-state</link>
+            <guid isPermaLink="true">http://hearingirc.com/news/rfp-2019-hearing-loss-impact-affective-state</guid>
+            <pubDate>Tue, 04 Jun 2019 17:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Announcing the 2018 Grant Recipients]]></title>
             <description><![CDATA[<p>In response to the RFP 2018, Stigma-related factors influencing the uptake of
@@ -312,23 +348,6 @@ IRC.</p>
             <link>http://hearingirc.com/news/announcing-the-2014-irc-grant-recipients</link>
             <guid isPermaLink="true">http://hearingirc.com/news/announcing-the-2014-irc-grant-recipients</guid>
             <pubDate>Thu, 05 Feb 2015 08:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Announcing the 2014 RFP: Neurodegeneration]]></title>
-            <description><![CDATA[<p>During the last five years, our understanding of the pathophysiology of hearing
-loss has been substantially enhanced, and challenged, by the discovery of
-auditory neuronal damage, which does not always manifest in the audiogram. This
-is a very interesting new area of research, and this year the IRC is requesting
-proposals within the topic of Neurodegeneration: Perceptual Consequences and
-Quantification in Human Subjects. The $300,000 grant is open to research labs
-around the world.</p>
-<p>Applications are available on the <a href="http://www.hearingirc.com">IRC website</a>. The
-deadline for proposals is August 15, 2014, and decisions will be announced by
-December 31, 2014.</p>
-]]></description>
-            <link>http://hearingirc.com/news/rfp-2014-neurodegeneration</link>
-            <guid isPermaLink="true">http://hearingirc.com/news/rfp-2014-neurodegeneration</guid>
-            <pubDate>Thu, 29 May 2014 17:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
