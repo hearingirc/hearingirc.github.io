@@ -4,9 +4,40 @@
         <description><![CDATA[Untitled RSS Feed]]></description>
         <link>http://hearingirc.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 04 Jun 2019 14:40:54 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 24 Mar 2020 20:10:08 GMT</lastBuildDate>
         <atom:link href="http://hearingirc.com/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 04 Jun 2019 14:40:46 GMT</pubDate>
+        <pubDate>Tue, 24 Mar 2020 20:10:03 GMT</pubDate>
+        <item>
+            <title><![CDATA[Announcing the 2019 Grant Recipients]]></title>
+            <description><![CDATA[<p>In response to the RFP 2019, “The joy of hearing: the impact of hearing loss
+and hearing aids on the affective state of the listener “, the IRC received
+eight great project proposal. This is comparable to previous calls on topics
+that has not received much attention in the research community. It is one of
+the goals of IRC to identify these under-studied domains in the field of
+Audiology, and like the 2018 RFP, the 2019 is one of these and focuses more on
+the psychological aspects of Audiology.</p>
+<p>The IRC is now pleased to announce that for the 2019 call, we have two grant
+winners. They are:</p>
+<ul>
+<li>University of Nottingham, Graham Naylor and his team of the proposal:
+“Emotional responses in daily-life listening situations for people with a
+hearing loss, and emotional adaptation after a first hearing-aid fitting”</li>
+<li>University of Memphis, Jani Johnson and her team on the proposal “Does
+wearing hearing aids impact the affective state of older adults with
+hearing loss in daily listening”</li>
+</ul>
+<p>The projects both started early 2020. We look forward to seeing the results and
+contributions from these projects.</p>
+<p>The IRC is once again very pleased to have received excellent proposals from
+globally leading researchers We sincerely appreciate the effort put into these
+proposals. We are pleased to stimulate the relevant research fields, both with
+potential funding, but also in providing topics of interest to the Industry,
+that consequently will lead to greater impact of the conducted research</p>
+]]></description>
+            <link>http://hearingirc.com/news/announcing-the-2019-irc-grant-recipients</link>
+            <guid isPermaLink="true">http://hearingirc.com/news/announcing-the-2019-irc-grant-recipients</guid>
+            <pubDate>Tue, 24 Mar 2020 08:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Announcing the 2019 RFP: "The joy of hearing: the impact of hearing loss and hearing aids on the affective state of the listener"]]></title>
             <description><![CDATA[<p>The Hearing Industry Research Consortium (IRC) announces its 2019 Request for
@@ -298,56 +329,6 @@ December 31, 2015.</p>
             <link>http://hearingirc.com/news/rfp-2015-outcome-measurement-and-treatment-prescription</link>
             <guid isPermaLink="true">http://hearingirc.com/news/rfp-2015-outcome-measurement-and-treatment-prescription</guid>
             <pubDate>Fri, 01 May 2015 17:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Announcing the 2014 Grant Recipients]]></title>
-            <description><![CDATA[<p>By the deadline in August 2014 IRC had received 21 outstanding grant proposals
-from leading universities around the world in response to the most recent RFP.
-While last year’s grant recipients, Steven Colburn (Boston University, USA) &amp;
-Theo Goverts (VU University Medical Center, Amsterdam) and Gitte Keidser &amp;
-Virginia Best (National Acoustic Laboratories, Australia) were focussing on
-research in the field of Perception of dynamic spatial listening scenarios, the
-2014 RFP focuses on Neurodegeneration: Perceptual Consequences and
-Quantification in Human Subjects.</p>
-<p>IRC is very pleased to announce that the 2014 Grant recipients are Prof. John
-Grose, University of North Carolina at Chapel Hill and Dr. Elizabeth Beach,
-PhD, National Acoustic Laboratories, Australia.</p>
-<p>John Grose is Professor at the department of Otolaryngology - Head &amp; Neck
-Surgery, and his work will focus on characterizing auditory neurodegeneration
-in humans, combining basic psychoacoustic measurements with
-electrophysiological measurements.</p>
-<p>“There is increasing evidence that noise exposure can result in permanent
-hearing changes even if the ability to detect quiet sounds remains intact”, Dr
-John Grose says - “This project looks specifically at whether regular
-attendance at loud music venues is associated with a compromised ability to
-discern audible sounds over the long term. I am very enthusiastic be working
-with the IRC on this project, as we consider this study an important next step
-in our understanding of the perceptual consequences of hearing loss and aging”.</p>
-<p>The project will be undertaken in the Hearing Research Laboratory at the
-University of North Carolina at Chapel Hill, which has a distinguished history
-of studying human auditory function using both behavioral and
-electrophysiological tests.</p>
-<p>Elizabeth Beach is a Research Psychologist at NAL, and her work will focus at
-addressing outcomes of a potential target group of noise exposed workers, in
-combination with basic auditory assessments. Elizabeth says: “It was such a
-great topic for the IRC to initiate a request on, and it was a topic that we
-had already been thinking about a lot. We&#39;re very much looking forward to the
-study and reaching a better understanding of the nature of hidden hearing
-loss.&quot;</p>
-<p>Both projects look at the so-called ‘hidden hearing loss’ being an implication
-of degeneration of neurons in the auditory fibers, due to noise exposure. The
-term ‘hidden hearing loss’ refers to the fact that it is not obvious from an
-audiogram, that hearing has deteriorated (significantly), but speech
-understanding in noise is severely reduced.</p>
-<p>“Once again we are very pleased to have received so many excellent proposals
-from universities all around the world. We know it takes a big effort to
-prepare such applications, and we want to express our thankfulness to all
-applicant for their contribution,” said Joel Beilin, 2014-2015 Chair of the
-IRC.</p>
-]]></description>
-            <link>http://hearingirc.com/news/announcing-the-2014-irc-grant-recipients</link>
-            <guid isPermaLink="true">http://hearingirc.com/news/announcing-the-2014-irc-grant-recipients</guid>
-            <pubDate>Thu, 05 Feb 2015 08:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
