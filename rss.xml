@@ -4,9 +4,27 @@
         <description><![CDATA[Untitled RSS Feed]]></description>
         <link>http://hearingirc.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 24 Mar 2020 20:10:08 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 11 May 2020 19:28:20 GMT</lastBuildDate>
         <atom:link href="http://hearingirc.com/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 24 Mar 2020 20:10:03 GMT</pubDate>
+        <pubDate>Mon, 11 May 2020 19:28:16 GMT</pubDate>
+        <item>
+            <title><![CDATA[No IRC Request for Proposal in 2020]]></title>
+            <description><![CDATA[<p>Dear all,</p>
+<p>On behalf of the Hearing Industry Research Consortium (IRC), I would like to
+let you know, that we will not post a Request for Proposals in 2020. We a
+sorry about this, but reason is that the current conditions, due to the global
+COVID-19 situation, has created sub-optimal work conditions for researchers to
+generate the proposals. Another reason is that we, as an industry are in a
+situation with careful awareness to expenses. I hope that there is an
+understanding of this decision. We will return with a new a great topic for
+you to consider. So, stay tuned for news in April/May 2021.</p>
+<p>Thank you</p>
+<p>The Hearing Industry Consortium (IRC)</p>
+]]></description>
+            <link>http://hearingirc.com/news/rfp-2020-status</link>
+            <guid isPermaLink="true">http://hearingirc.com/news/rfp-2020-status</guid>
+            <pubDate>Mon, 11 May 2020 17:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Announcing the 2019 Grant Recipients]]></title>
             <description><![CDATA[<p>In response to the RFP 2019, “The joy of hearing: the impact of hearing loss
@@ -67,7 +85,7 @@ Hearing, Oticon, Sonova, WS Audiology and Starkey Hearing Technologies. The IRC
 was created to have a non-competitive, mutually agreed upon research agenda
 benefiting the hearing aid industry, its customers and end users. For more
 information about the Hearing Industry Research Consortium, visit
-www.hearingirc.com.</p>
+<a href="http://www.hearingirc.com">www.hearingirc.com</a>.</p>
 <p>Morten Løve Jepsen, 2019-2020 Chair of the IRC</p>
 ]]></description>
             <link>http://hearingirc.com/news/rfp-2019-hearing-loss-impact-affective-state</link>
@@ -305,30 +323,6 @@ IRC.</p>
             <link>http://hearingirc.com/news/announcing-the-2015-irc-grant-recipients</link>
             <guid isPermaLink="true">http://hearingirc.com/news/announcing-the-2015-irc-grant-recipients</guid>
             <pubDate>Mon, 14 Mar 2016 08:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Announcing the 2015 RFP: Outcome Measurement and Treatment Prescription]]></title>
-            <description><![CDATA[<p>Since 2010 the hearing industry’s largest manufacturers have collaborated to
-sponsor a non-competitive, mutually agreed upon research agenda benefitting the
-hearing aid industry, its customers, and end users. The framework for this
-collaboration is the <a href="http://hearingirc.com">Hearing Industry Research Consortium (IRC)</a>.</p>
-<p>Coordinated data collection in audiological service delivery systems can be
-exploited to examine relations between patient characteristics, treatment
-outcomes, and process variables. This may provide new evidence for the
-development of improved treatment. Meanwhile, the diversity of real-life
-clinical practice may cause any data to be very ‘noisy’, potentially
-invalidating conclusions regarding cause and effect. IRC wishes to promote
-serious research in this area, and therefore this year the IRC is requesting
-proposals within the topic of ‘Large-scale approaches to outcome measurement
-and treatment prescription’. The $300,000 funding pool is open to research labs
-around the world.</p>
-<p>Applications are available on the <a href="http://hearingirc.com">Hearing IRC web site</a>. The
-deadline for proposals is August 16, 2015, and decisions will be announced by
-December 31, 2015.</p>
-]]></description>
-            <link>http://hearingirc.com/news/rfp-2015-outcome-measurement-and-treatment-prescription</link>
-            <guid isPermaLink="true">http://hearingirc.com/news/rfp-2015-outcome-measurement-and-treatment-prescription</guid>
-            <pubDate>Fri, 01 May 2015 17:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
