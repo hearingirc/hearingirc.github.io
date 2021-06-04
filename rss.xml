@@ -4,9 +4,43 @@
         <description><![CDATA[Untitled RSS Feed]]></description>
         <link>http://hearingirc.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 04 Jun 2021 14:29:25 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 04 Jun 2021 16:20:06 GMT</lastBuildDate>
         <atom:link href="http://hearingirc.com/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 04 Jun 2021 14:29:20 GMT</pubDate>
+        <pubDate>Fri, 04 Jun 2021 16:20:02 GMT</pubDate>
+        <item>
+            <title><![CDATA[Announcing the 2021 RFP: "Confirming The Hearing Care Practitioner (HCP) Role with Respect to Expanded Hearing-Aid-User Needs, Health &amp; Well-Being"]]></title>
+            <description><![CDATA[<p>The Hearing Industry Research Consortium (IRC) announces its 2021 Request for
+Proposals (RFP) for research on &quot;Confirming The Hearing Care Practitioner
+(HCP) Role with Respect to Expanded Hearing-Aid-User Needs, Health &amp; Well-Being&quot;.</p>
+<p>The purpose of this RFP is to stimulate research into the expanding role of the
+HCP given rapidly changing technologies. <strong>Today, the HCP needs to understand
+social and psychological factors, vestibular anatomy and physiology, cognitive
+screening tools, and biometric functions, topics that have not been part of the
+traditional scope of practice, and this RFP is designed to confirm and refine
+the important role of the HCP.</strong></p>
+<p>The funding pool for this RFP is 300,000 US Dollars, and the time period for
+execution of projects under this RFP is 2-3 years from 1st January 2022.
+Proposals for projects of two years duration are preferred. It is envisaged
+that one or two project proposals will be funded.</p>
+<p>Detailed descriptions of the application procedure, the guidelines for research
+under this scheme, and the proposed research area can be <a href="http://rfp.hearingirc.com">downloaded</a>
+and also found on the <a href="http://hearingirc.com">IRC website</a>. The deadline for
+submission is September 3, 2021.</p>
+<p>Questions can be sent to any of the IRC members listed on the website or using
+the Contact Form on the website.</p>
+<p>The Hearing Industry Research Consortium (IRC) is made up of the heads of
+research from the top hearing aid manufacturers in the world, which include GN
+Hearing, Oticon, Sonova, WS Audiology and Starkey Hearing Technologies. The IRC
+was created to have a non-competitive, mutually agreed upon research agenda
+benefiting the hearing aid industry, its customers and end users. For more
+information about the Hearing Industry Research Consortium, visit
+<a href="http://www.hearingirc.com">www.hearingirc.com</a>.</p>
+<p>Andrew Dittberner, 2020-2022 Chair of the IRC</p>
+]]></description>
+            <link>http://hearingirc.com/news/rfp-2021-expanded-customer-needs-health-wellness</link>
+            <guid isPermaLink="true">http://hearingirc.com/news/rfp-2021-expanded-customer-needs-health-wellness</guid>
+            <pubDate>Fri, 04 Jun 2021 17:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[No IRC Request for Proposal in 2020]]></title>
             <description><![CDATA[<p>Dear all,</p>
@@ -297,32 +331,6 @@ deadline for proposals is August 21, 2016, and decisions will be announced by De
             <link>http://hearingirc.com/news/rfp-2016-auditory-ecology</link>
             <guid isPermaLink="true">http://hearingirc.com/news/rfp-2016-auditory-ecology</guid>
             <pubDate>Mon, 13 Jun 2016 17:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Announcing the 2015 Grant Recipients]]></title>
-            <description><![CDATA[<p>By the deadline of August 2015 IRC had received 6 outstanding grant proposals
-from leading universities around the world in response to the most recent RFP,
-which focuses on Big Data Outcome Measurement and Treatment.</p>
-<p>IRC is very pleased to announce that the 2015 Grant recipients are the teams
-lead by Principal Investigators Dr Peter Nordquist, Research Institute
-Hörselbron, KTH Stockholm, Sweden as well as the team lead by Dr Harvey Dillon,
-National Acoustic Laboratories, Sydney, Australia. Each team received an award
-of 150’000 USD to pursue their research.</p>
-<p>Both projects look at how coordinated data collection in audiological service
-delivery systems can be exploited to examine relations between patient
-characteristics, treatment outcomes, and process variables. This may provide
-new evidence for the development of improved treatment. Meanwhile, the
-diversity of real-life clinical practice may cause any data to be very ‘noisy’,
-potentially invalidating conclusions regarding cause and effect.</p>
-<p>“Once again we are very pleased to have received so many excellent proposals
-from universities all around the world. We know it takes a big effort to
-prepare such applications, and we want to express our thankfulness to all
-applicants for their contribution,” said Stefan Launer, 2016-2017 Chair of the
-IRC.</p>
-]]></description>
-            <link>http://hearingirc.com/news/announcing-the-2015-irc-grant-recipients</link>
-            <guid isPermaLink="true">http://hearingirc.com/news/announcing-the-2015-irc-grant-recipients</guid>
-            <pubDate>Mon, 14 Mar 2016 08:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
